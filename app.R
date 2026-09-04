@@ -622,45 +622,185 @@ ui <- navbarPage(
     title = "Hypothesis Testing",
     br(),
     fluidRow(
+      # ===================================================
+      # LEFT SIDE - INPUT
+      # ===================================================
+      
       column(
+        
         width = 4,
-        div(
-          class = "custom-card",
-          div(class = "custom-card-header", "⚙️ Test Configuration"),
-          radioButtons(
-            "sample_type", "Sample Structure:",
-            choices = c("One-Sample" = "one", "Two-Sample" = "two"),
-            selected = "one"
+    
+        h3("Test Selection"),
+        
+        # -------------------------------------------------
+        # SAMPLE STRUCTURE
+        # -------------------------------------------------
+        
+        radioButtons(
+          
+          inputId = "sample_type",
+          
+          label = "Sample Structure:",
+          
+          choices = c(
+            "One-Sample" = "one",
+            "Two-Sample" = "two"
           ),
-          selectInput("variable", "Select Continuous Variable:", choices = NULL, selectize = FALSE),
-          conditionalPanel(
-            condition = "input.sample_type == 'two'",
-            selectInput("group_variable", "Select Grouping Variable:", choices = NULL, selectize = FALSE)
+          
+          selected = "one"
+          
+        ),
+        
+        # -------------------------------------------------
+        # QUANTITATIVE VARIABLE
+        # -------------------------------------------------
+        
+        selectInput(
+          
+          inputId = "quant_variable",
+          
+          label = "Quantitative Variable:",
+          
+          choices = NULL
+          
+        ),
+        
+        # -------------------------------------------------
+        # QUALITATIVE VARIABLE
+        # Only needed for Two-Sample test
+        # -------------------------------------------------
+        
+        conditionalPanel(
+          
+          condition = "input.sample_type == 'two'",
+          
+          selectInput(
+            
+            inputId = "qual_variable",
+            
+            label = "Qualitative Grouping Variable:",
+            
+            choices = NULL
+            
+          )
+          
+        ),
+        
+        br(),
+        
+        # -------------------------------------------------
+        # TEST TYPE
+        # -------------------------------------------------
+        
+        radioButtons(
+          
+          inputId = "test_type",
+          
+          label = "Statistical Test:",
+          
+          choices = c(
+            "T-test" = "t",
+            "Z-test" = "z"
           ),
-          radioButtons(
-            "test_type", "Test Type:",
-            choices = c("T-test" = "t", "Z-test" = "z"),
-            selected = "t"
-          ),
-          numericInput("mu", "Hypothesized Mean / Difference:", value = 0),
-          numericInput("alpha", "Significance Level (α):", value = 0.05, min = 0.001, max = 0.50, step = 0.01),
-          conditionalPanel(
-            condition = "input.test_type == 'z'",
-            numericInput("population_sd", "Population Standard Deviation:", value = 1, min = 0.0001)
-          ),
-          br(),
-          actionButton("perform_test", "Perform Hypothesis Test", class = "btn-primary w-100")
+          
+          selected = "t"
+          
+        ),
+        
+        # -------------------------------------------------
+        # HYPOTHESIZED MEAN / DIFFERENCE
+        # -------------------------------------------------
+        
+        numericInput(
+          
+          inputId = "mu",
+          
+          label = "Hypothesized Mean / Difference:",
+          
+          value = 0
+          
+        ),
+        
+        # -------------------------------------------------
+        # Z-TEST POPULATION SD
+        # -------------------------------------------------
+        
+        conditionalPanel(
+          
+          condition = "input.test_type == 'z'",
+          
+          numericInput(
+            
+            inputId = "sigma",
+            
+            label = "Population Standard Deviation:",
+            
+            value = 1,
+            
+            min = 0.0001
+            
+          )
+          
+        ),
+        
+        # -------------------------------------------------
+        # SIGNIFICANCE LEVEL
+        # -------------------------------------------------
+        
+        numericInput(
+          
+          inputId = "alpha",
+          
+          label = "Significance Level (α):",
+          
+          value = 0.05,
+          
+          min = 0.001,
+          
+          max = 0.50,
+          
+          step = 0.01
+          
+        ),
+        
+        br(),
+        
+        # -------------------------------------------------
+        # PERFORM TEST BUTTON
+        # -------------------------------------------------
+        
+        actionButton(
+          
+          inputId = "perform_test",
+          
+          label = "Perform Hypothesis Test",
+          
+          class = "btn-primary"
+          
         )
+        
       ),
+      
+      # ===================================================
+      # RIGHT SIDE - OUTPUT
+      # ===================================================
+      
       column(
+        
         width = 8,
-        div(
-          class = "custom-card",
-          div(class = "custom-card-header", "📋 Hypothesis Test Result"),
-          verbatimTextOutput("test_result")
+        
+        h3("Hypothesis Test Result"),
+        
+        verbatimTextOutput(
+          
+          outputId = "test_result"
+          
         )
+        
       )
+      
     )
+    
   ),
   
   tabPanel(
@@ -1024,103 +1164,659 @@ server <- function(input, output, session) {
     }
   })
   
-  continuous_variables <- reactive({
+  # =======================================================
+  # FIND QUANTITATIVE VARIABLES
+  # =======================================================
+  
+  quantitative_variables <- shiny::reactive({
+    
     req(uploaded_data())
-    data <- uploaded_data()
-    names(data)[sapply(data, is.numeric)]
-  })
-  
-  grouping_variables <- reactive({
-    req(uploaded_data())
-    data <- uploaded_data()
-    names(data)[sapply(data, function(x) is.character(x) || is.factor(x))]
-  })
-  
-  observe({
-    updateSelectInput(session, "variable", choices = continuous_variables())
-  })
-  
-  observe({
-    updateSelectInput(session, "group_variable", choices = grouping_variables())
-  })
-  
-  output$test_result <- renderText({
-    req(input$perform_test)
-    req(input$variable)
+    
     data <- uploaded_data()
     
+    names(data)[
+      sapply(
+        data,
+        is.numeric
+      )
+    ]
+    
+  })
+  
+  
+  # =======================================================
+  # FIND QUALITATIVE VARIABLES
+  # =======================================================
+  
+  qualitative_variables <- shiny::reactive({
+    
+    req(uploaded_data())
+    
+    data <- uploaded_data()
+    
+    names(data)[
+      sapply(
+        data,
+        function(x) {
+          
+          is.character(x) ||
+            is.factor(x)
+          
+        }
+      )
+    ]
+    
+  })
+  
+  
+  # =======================================================
+  # UPDATE QUANTITATIVE VARIABLE
+  # =======================================================
+  
+  observe({
+    
+    vars <- quantitative_variables()
+    
+    updateSelectInput(
+      
+      session,
+      
+      "quant_variable",
+      
+      choices = vars
+      
+    )
+    
+  })
+  
+  
+  # =======================================================
+  # UPDATE QUALITATIVE VARIABLE
+  # =======================================================
+  
+  observe({
+    
+    vars <- qualitative_variables()
+    
+    updateSelectInput(
+      
+      session,
+      
+      "qual_variable",
+      
+      choices = vars
+      
+    )
+    
+  })
+  
+  
+  # =======================================================
+  # HYPOTHESIS TEST RESULT
+  # =======================================================
+  
+  output$test_result <- renderText({
+    
+    req(input$perform_test > 0)
+    
+    req(input$file)
+    
+    req(input$quant_variable)
+    
+    
+    data <- uploaded_data()
+    
+    
+    # =====================================================
+    # CHECK SIGNIFICANCE LEVEL
+    # =====================================================
+    
+    validate(
+      
+      need(
+        
+        input$alpha > 0 &&
+          input$alpha < 1,
+        
+        "Significance level α must be between 0 and 1."
+        
+      )
+      
+    )
+    
+    
+    # =====================================================
+    # ONE-SAMPLE TEST
+    # =====================================================
+    
     if (input$sample_type == "one") {
-      x <- data[[input$variable]]
+      
+      
+      # ---------------------------------------------------
+      # Get quantitative variable
+      # ---------------------------------------------------
+      
+      x <- data[[input$quant_variable]]
+      
       x <- x[!is.na(x)]
+      
+      
+      # ---------------------------------------------------
+      # Check quantitative variable
+      # ---------------------------------------------------
+      
+      validate(
+        
+        need(
+          
+          is.numeric(x),
+          
+          "Please select a quantitative variable."
+          
+        )
+        
+      )
+      
+      
+      # ---------------------------------------------------
+      # Sample size
+      # ---------------------------------------------------
+      
       n <- length(x)
-      validate(need(n >= 2, "At least two observations are required."))
+      
+      
+      validate(
+        
+        need(
+          
+          n >= 2,
+          
+          "At least 2 observations are required."
+          
+        )
+        
+      )
+      
+      
       sample_mean <- mean(x)
       
+      sample_sd <- sd(x)
+      
+      
+      # ===================================================
+      # ONE-SAMPLE T-TEST
+      # ===================================================
+      
       if (input$test_type == "t") {
-        result <- t.test(x, mu = input$mu)
-        statistic <- as.numeric(result$statistic)
+        
+        
+        result <- stats::t.test(
+          
+          x,
+          
+          mu = input$mu
+          
+        )
+        
+        
+        statistic <- as.numeric(
+          
+          result$statistic
+          
+        )
+        
         p_value <- result$p.value
+        
         test_name <- "One-Sample T-test"
-      } else {
-        z <- (sample_mean - input$mu) / (input$population_sd / sqrt(n))
-        statistic <- z
-        p_value <- 2 * pnorm(-abs(z))
-        test_name <- "One-Sample Z-test"
+        
+        
       }
-      decision <- ifelse(p_value < input$alpha, "Reject H0", "Fail to Reject H0")
+      
+      
+      # ===================================================
+      # ONE-SAMPLE Z-TEST
+      # ===================================================
+      
+      else {
+        
+        
+        validate(
+          
+          need(
+            
+            input$sigma > 0,
+            
+            "Population standard deviation must be greater than 0."
+            
+          )
+          
+        )
+        
+        
+        statistic <- (
+          
+          sample_mean - input$mu
+          
+        ) / (
+          
+          input$sigma / sqrt(n)
+          
+        )
+        
+        
+        p_value <- 2 * stats::pnorm(
+          
+          -abs(statistic)
+          
+        )
+        
+        
+        test_name <- "One-Sample Z-test"
+        
+      }
+      
+      
+      # ---------------------------------------------------
+      # DECISION
+      # ---------------------------------------------------
+      
+      decision <- ifelse(
+        
+        p_value < input$alpha,
+        
+        "Reject H0",
+        
+        "Fail to Reject H0"
+        
+      )
+      
+      
+      # ---------------------------------------------------
+      # OUTPUT
+      # ---------------------------------------------------
       
       paste0(
-        "Test: ", test_name, "\n",
-        "Variable: ", input$variable, "\n",
-        "Sample Size: ", n, "\n",
-        "Significance Level (α): ", input$alpha, "\n\n",
-        "Test Statistic: ", round(statistic, 4), "\n",
-        "p-value: ", format.pval(p_value, digits = 4), "\n\n",
-        "Decision: ", decision
+        
+        "========================================\n",
+        
+        "HYPOTHESIS TESTING RESULT\n",
+        
+        "========================================\n\n",
+        
+        "Test: ",
+        test_name,
+        
+        "\n\n",
+        
+        "Quantitative Variable: ",
+        input$quant_variable,
+        
+        "\n",
+        
+        "Sample Size: ",
+        n,
+        
+        "\n",
+        
+        "Sample Mean: ",
+        round(sample_mean, 4),
+        
+        "\n",
+        
+        "Hypothesized Mean: ",
+        input$mu,
+        
+        "\n",
+        
+        "Significance Level (α): ",
+        input$alpha,
+        
+        "\n\n",
+        
+        "Test Statistic: ",
+        round(statistic, 4),
+        
+        "\n",
+        
+        "p-value: ",
+        format.pval(
+          
+          p_value,
+          
+          digits = 4
+          
+        ),
+        
+        "\n\n",
+        
+        "Decision: ",
+        decision
+        
       )
-    } else {
-      req(input$group_variable)
-      x <- data[[input$variable]]
-      group <- data[[input$group_variable]]
-      complete <- complete.cases(x, group)
+      
+    }
+    
+    
+    # =====================================================
+    # TWO-SAMPLE TEST
+    # =====================================================
+    
+    else {
+      
+      
+      req(input$qual_variable)
+      
+      
+      # ---------------------------------------------------
+      # Get variables
+      # ---------------------------------------------------
+      
+      x <- data[[input$quant_variable]]
+      
+      group <- data[[input$qual_variable]]
+      
+      
+      # ---------------------------------------------------
+      # Check variable types
+      # ---------------------------------------------------
+      
+      validate(
+        
+        need(
+          
+          is.numeric(x),
+          
+          "The outcome variable must be quantitative."
+          
+        )
+        
+      )
+      
+      
+      validate(
+        
+        need(
+          
+          is.character(group) ||
+            is.factor(group),
+          
+          "The grouping variable must be qualitative."
+          
+        )
+        
+      )
+      
+      
+      # ---------------------------------------------------
+      # Remove missing values
+      # ---------------------------------------------------
+      
+      complete <- stats::complete.cases(
+        
+        x,
+        
+        group
+        
+      )
+      
+      
       x <- x[complete]
+      
       group <- group[complete]
+      
+      
+      # ---------------------------------------------------
+      # Find groups
+      # ---------------------------------------------------
+      
       groups <- unique(group)
       
-      validate(need(length(groups) == 2, "The grouping variable must contain exactly two groups."))
-      group1 <- x[group == groups[1]]
-      group2 <- x[group == groups[2]]
       
-      validate(need(length(group1) >= 2 && length(group2) >= 2, "Each group must contain at least two observations."))
+      validate(
+        
+        need(
+          
+          length(groups) == 2,
+          
+          "The qualitative grouping variable must contain exactly TWO groups."
+          
+        )
+        
+      )
+      
+      
+      # ---------------------------------------------------
+      # Separate groups
+      # ---------------------------------------------------
+      
+      group1 <- x[
+        
+        group == groups[1]
+        
+      ]
+      
+      
+      group2 <- x[
+        
+        group == groups[2]
+        
+      ]
+      
+      
+      # ---------------------------------------------------
+      # Check sample sizes
+      # ---------------------------------------------------
+      
+      validate(
+        
+        need(
+          
+          length(group1) >= 2 &&
+            length(group2) >= 2,
+          
+          "Each group must contain at least 2 observations."
+          
+        )
+        
+      )
+      
+      
+      # ===================================================
+      # TWO-SAMPLE T-TEST
+      # ===================================================
       
       if (input$test_type == "t") {
-        result <- t.test(group1, group2)
-        statistic <- as.numeric(result$statistic)
+        
+        
+        result <- stats::t.test(
+          
+          group1,
+          
+          group2,
+          
+          mu = input$mu
+          
+        )
+        
+        
+        statistic <- as.numeric(
+          
+          result$statistic
+          
+        )
+        
         p_value <- result$p.value
+        
         test_name <- "Two-Sample T-test"
-      } else {
-        mean1 <- mean(group1)
-        mean2 <- mean(group2)
-        n1 <- length(group1)
-        n2 <- length(group2)
-        z <- (mean1 - mean2) / sqrt((input$population_sd^2 / n1) + (input$population_sd^2 / n2))
-        statistic <- z
-        p_value <- 2 * pnorm(-abs(z))
-        test_name <- "Two-Sample Z-test"
+        
+        
       }
-      decision <- ifelse(p_value < input$alpha, "Reject H0", "Fail to Reject H0")
+      
+      
+      # ===================================================
+      # TWO-SAMPLE Z-TEST
+      # ===================================================
+      
+      else {
+        
+        
+        validate(
+          
+          need(
+            
+            input$sigma > 0,
+            
+            "Population standard deviation must be greater than 0."
+            
+          )
+          
+        )
+        
+        
+        mean1 <- mean(group1)
+        
+        mean2 <- mean(group2)
+        
+        
+        n1 <- length(group1)
+        
+        n2 <- length(group2)
+        
+        
+        # -------------------------------------------------
+        # Z statistic
+        # -------------------------------------------------
+        
+        statistic <- (
+          
+          (mean1 - mean2) - input$mu
+          
+        ) / sqrt(
+          
+          (input$sigma^2 / n1) +
+            
+            (input$sigma^2 / n2)
+          
+        )
+        
+        
+        p_value <- 2 * stats::pnorm(
+          
+          -abs(statistic)
+          
+        )
+        
+        
+        test_name <- "Two-Sample Z-test"
+        
+      }
+      
+      
+      # ---------------------------------------------------
+      # DECISION
+      # ---------------------------------------------------
+      
+      decision <- ifelse(
+        
+        p_value < input$alpha,
+        
+        "Reject H0",
+        
+        "Fail to Reject H0"
+        
+      )
+      
+      
+      # ---------------------------------------------------
+      # OUTPUT
+      # ---------------------------------------------------
       
       paste0(
-        "Test: ", test_name, "\n",
-        "Variable: ", input$variable, "\n",
-        "Group 1: ", groups[1], "\n",
-        "Group 2: ", groups[2], "\n",
-        "Significance Level (α): ", input$alpha, "\n\n",
-        "Test Statistic: ", round(statistic, 4), "\n",
-        "p-value: ", format.pval(p_value, digits = 4), "\n\n",
-        "Decision: ", decision
+        
+        "========================================\n",
+        
+        "HYPOTHESIS TESTING RESULT\n",
+        
+        "========================================\n\n",
+        
+        "Test: ",
+        test_name,
+        
+        "\n\n",
+        
+        "Quantitative Variable: ",
+        input$quant_variable,
+        
+        "\n",
+        
+        "Qualitative Grouping Variable: ",
+        input$qual_variable,
+        
+        "\n\n",
+        
+        "Group 1: ",
+        groups[1],
+        
+        "\n",
+        
+        "Group 1 Sample Size: ",
+        length(group1),
+        
+        "\n",
+        
+        "Group 1 Mean: ",
+        round(mean(group1), 4),
+        
+        "\n\n",
+        
+        "Group 2: ",
+        groups[2],
+        
+        "\n",
+        
+        "Group 2 Sample Size: ",
+        length(group2),
+        
+        "\n",
+        
+        "Group 2 Mean: ",
+        round(mean(group2), 4),
+        
+        "\n\n",
+        
+        "Hypothesized Difference: ",
+        input$mu,
+        
+        "\n",
+        
+        "Significance Level (α): ",
+        input$alpha,
+        
+        "\n\n",
+        
+        "Test Statistic: ",
+        round(statistic, 4),
+        
+        "\n",
+        
+        "p-value: ",
+        format.pval(
+          
+          p_value,
+          
+          digits = 4
+          
+        ),
+        
+        "\n\n",
+        
+        "Decision: ",
+        decision
+        
       )
+      
     }
+    
   })
   
   quantitative_variables <- reactive({
