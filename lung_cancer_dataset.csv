@@ -1,0 +1,1001 @@
+﻿Patient_ID,Age,Gender,Smoking_History,Exposure_to_Pollution,Family_History,Lung_Cancer_Stage,Tumor_Size (cm),Cough_Symptoms,Chest_Pain,Weight_Loss,Treatment_Type,Survival_Rate (%),Hospital_Stay (Days),Medical_Cost (USD)
+LC_1,46,Female,Never,High,No,Stage III,8.37,Severe,Yes,No,Surgery,73.46,28,69283.16
+LC_2,57,Female,Never,High,No,Stage II,5.14,None,No,Yes,Surgery,44.73,19,91564.59
+LC_3,86,Male,Former Smoker,High,Yes,Stage I,3.73,None,Yes,Yes,Chemotherapy,86.92,15,65279.18
+LC_4,30,Female,Former Smoker,High,No,Stage IV,4.65,Severe,Yes,Yes,Chemotherapy,75.22,16,14306.51
+LC_5,84,Female,Never,High,No,Stage III,1.06,None,No,No,Radiation,76.64,14,80355.42
+LC_6,57,Male,Never,Moderate,No,Stage I,5.93,Severe,No,No,Radiation,87.42,27,5270.19
+LC_7,53,Male,Former Smoker,High,Yes,Stage IV,1.73,Mild,No,No,Radiation,82.38,18,74044.08
+LC_8,76,Male,Never,High,Yes,Stage III,6.82,Mild,Yes,No,Radiation,29.36,3,57070.55
+LC_9,87,Other,Never,Low,No,Stage IV,1.29,Mild,No,No,Surgery,40.93,21,60228.2
+LC_10,82,Other,Former Smoker,Low,No,Stage IV,5.65,None,No,Yes,Immunotherapy,86.98,24,89943.37
+LC_11,77,Female,Former Smoker,Moderate,Yes,Stage III,7.19,Mild,No,Yes,Chemotherapy,85.58,22,30361.71
+LC_12,82,Male,Never,Low,No,Stage I,3.7,Mild,No,No,Chemotherapy,71.6,15,51455.38
+LC_13,62,Other,Never,Low,Yes,Stage III,3.25,Severe,Yes,Yes,Radiation,72.38,7,16570.9
+LC_14,67,Female,Current Smoker,Low,Yes,Stage IV,8.94,None,Yes,No,Radiation,74.62,2,47287.25
+LC_15,69,Female,Former Smoker,Low,No,Stage IV,1.24,Severe,Yes,Yes,Surgery,83.33,2,47294.72
+LC_16,79,Male,Current Smoker,Moderate,Yes,Stage I,3.53,None,No,No,Chemotherapy,60.67,21,41188.6
+LC_17,53,Male,Current Smoker,High,Yes,Stage I,9.58,Mild,No,No,Surgery,27.77,9,95814.15
+LC_18,36,Female,Former Smoker,Moderate,No,Stage IV,1.45,Severe,No,No,Immunotherapy,32.38,4,89318.43
+LC_19,67,Male,Never,Moderate,Yes,Stage II,7.3,Severe,Yes,No,Radiation,59.91,14,41878.48
+LC_20,84,Male,Current Smoker,High,No,Stage II,3.1,Severe,No,Yes,Chemotherapy,10.85,27,51343.12
+LC_21,69,Female,Never,High,Yes,Stage IV,1.4,Mild,Yes,No,Chemotherapy,25.42,14,93649.54
+LC_22,30,Male,Current Smoker,Moderate,Yes,Stage III,9.74,None,Yes,No,Radiation,6.62,2,40471.77
+LC_23,62,Female,Former Smoker,Low,Yes,Stage III,6.59,Mild,Yes,No,Chemotherapy,39.84,27,99648.23
+LC_24,55,Female,Former Smoker,Low,Yes,Stage IV,7.49,None,No,Yes,Radiation,43.89,27,71883.69
+LC_25,67,Female,Never,Low,No,Stage IV,9.41,None,No,No,Immunotherapy,49.35,13,55246.78
+LC_26,45,Female,Current Smoker,High,Yes,Stage II,4.42,None,No,Yes,Immunotherapy,20.17,10,27876.73
+LC_27,66,Other,Never,Moderate,Yes,Stage I,6.68,Severe,No,Yes,Chemotherapy,31.27,27,37230.32
+LC_28,49,Male,Never,High,Yes,Stage II,1.28,Severe,Yes,No,Immunotherapy,79,17,87995.71
+LC_29,84,Female,Former Smoker,Moderate,Yes,Stage IV,4.61,Severe,Yes,Yes,Radiation,29.03,16,11294.61
+LC_30,72,Other,Current Smoker,Low,Yes,Stage II,1.72,Mild,No,No,Immunotherapy,49.8,27,88575.94
+LC_31,89,Male,Never,High,No,Stage III,2.42,Mild,No,Yes,Radiation,39.44,14,85732.93
+LC_32,70,Male,Current Smoker,High,No,Stage III,2.3,None,Yes,Yes,Surgery,39.58,25,51425.06
+LC_33,51,Other,Former Smoker,High,Yes,Stage I,1.99,None,Yes,Yes,Surgery,35.53,19,66557.56
+LC_34,70,Male,Current Smoker,Low,No,Stage III,3.69,Severe,No,No,Radiation,55.17,23,53115
+LC_35,88,Male,Current Smoker,Moderate,No,Stage III,3.9,None,No,Yes,Immunotherapy,85.22,23,41707.45
+LC_36,40,Male,Never,High,No,Stage IV,9.33,Mild,No,Yes,Radiation,11.74,15,79551.16
+LC_37,59,Male,Current Smoker,Moderate,No,Stage I,0.66,None,Yes,Yes,Chemotherapy,54.9,29,32790.74
+LC_38,52,Other,Never,Moderate,Yes,Stage III,4.3,None,No,No,Surgery,75.31,11,21536.22
+LC_39,65,Other,Never,Moderate,No,Stage I,6.88,None,No,Yes,Surgery,18.38,21,83920.5
+LC_40,80,Female,Never,High,Yes,Stage II,4.47,None,No,Yes,Surgery,29.38,13,51761.64
+LC_41,41,Other,Never,Moderate,No,Stage I,8.99,Mild,Yes,No,Surgery,42.41,20,23830.91
+LC_42,34,Other,Current Smoker,Low,Yes,Stage I,6.44,Severe,No,Yes,Radiation,29.8,10,57369.25
+LC_43,74,Female,Current Smoker,High,No,Stage II,5.75,Severe,Yes,No,Radiation,9.68,14,23169.57
+LC_44,84,Other,Current Smoker,Moderate,Yes,Stage I,9.93,Severe,No,Yes,Radiation,5.33,16,17477.34
+LC_45,79,Female,Never,Moderate,No,Stage IV,1.38,Severe,No,Yes,Chemotherapy,18.91,16,75204.39
+LC_46,77,Other,Never,High,Yes,Stage I,8.5,Mild,No,No,Chemotherapy,71.17,1,5471.75
+LC_47,75,Male,Former Smoker,Moderate,No,Stage II,2.75,Severe,Yes,Yes,Immunotherapy,40.62,3,48652.99
+LC_48,60,Other,Former Smoker,High,Yes,Stage I,9.9,None,Yes,Yes,Chemotherapy,28.22,23,75843.05
+LC_49,83,Male,Former Smoker,High,No,Stage III,4.47,Mild,No,No,Chemotherapy,40.41,16,87943.01
+LC_50,50,Female,Former Smoker,High,Yes,Stage IV,8.42,Mild,No,Yes,Immunotherapy,36.41,17,9200.63
+LC_51,62,Male,Never,Low,Yes,Stage II,9.23,None,Yes,Yes,Radiation,60.15,13,21815.98
+LC_52,60,Female,Former Smoker,Moderate,Yes,Stage I,7.6,Severe,Yes,Yes,Radiation,23.64,6,64808.84
+LC_53,66,Other,Never,Moderate,No,Stage I,8.08,Severe,No,Yes,Immunotherapy,56.6,18,22821.45
+LC_54,57,Female,Former Smoker,Moderate,Yes,Stage IV,9.63,Severe,Yes,No,Immunotherapy,58.79,6,35586.83
+LC_55,87,Female,Current Smoker,Moderate,No,Stage III,6.53,None,Yes,Yes,Surgery,32.95,5,84286.35
+LC_56,52,Male,Current Smoker,Moderate,No,Stage I,9.81,Mild,Yes,Yes,Immunotherapy,22.9,11,95649.07
+LC_57,81,Female,Former Smoker,Low,No,Stage IV,2.48,Mild,No,Yes,Immunotherapy,68.5,4,86323.72
+LC_58,86,Female,Current Smoker,Low,No,Stage IV,7.79,Severe,Yes,No,Surgery,56.9,26,92785.27
+LC_59,56,Male,Former Smoker,Moderate,No,Stage IV,4.85,None,Yes,No,Immunotherapy,53.93,16,66408.63
+LC_60,69,Female,Former Smoker,Low,Yes,Stage I,8.38,None,No,Yes,Radiation,80.37,20,38507.75
+LC_61,64,Female,Current Smoker,High,No,Stage I,9.82,Severe,Yes,Yes,Chemotherapy,70.52,29,96872.16
+LC_62,69,Male,Never,Low,Yes,Stage IV,9.73,Mild,No,Yes,Radiation,88.95,28,38212.19
+LC_63,73,Male,Current Smoker,Moderate,No,Stage II,3.64,None,No,No,Radiation,38.18,23,28975.73
+LC_64,40,Other,Former Smoker,High,No,Stage III,6.04,Mild,No,No,Chemotherapy,49.76,21,96901.15
+LC_65,34,Other,Current Smoker,High,Yes,Stage II,1.59,Mild,No,No,Surgery,89.55,10,33948.22
+LC_66,62,Female,Former Smoker,High,No,Stage III,8.81,Mild,No,No,Radiation,50.24,15,87742.93
+LC_67,39,Male,Current Smoker,Moderate,Yes,Stage I,1.04,None,Yes,Yes,Immunotherapy,78.09,27,36589.21
+LC_68,76,Male,Former Smoker,High,Yes,Stage IV,9.96,Mild,Yes,Yes,Immunotherapy,44.09,26,62324.78
+LC_69,40,Male,Former Smoker,High,No,Stage II,7.63,Severe,No,Yes,Radiation,77.52,4,56846.93
+LC_70,58,Other,Former Smoker,Moderate,No,Stage I,3.16,None,Yes,No,Radiation,43.59,16,49545.67
+LC_71,30,Male,Former Smoker,High,Yes,Stage III,6.79,Mild,Yes,No,Surgery,62.35,16,63173.7
+LC_72,65,Male,Current Smoker,Moderate,Yes,Stage IV,0.64,Mild,No,No,Immunotherapy,86.02,23,80076.32
+LC_73,64,Female,Current Smoker,Low,Yes,Stage IV,2.48,Severe,Yes,No,Radiation,27.89,10,20400.97
+LC_74,85,Female,Current Smoker,Moderate,No,Stage II,2.83,None,No,No,Chemotherapy,30.38,28,71744
+LC_75,64,Other,Never,Moderate,No,Stage II,8.17,None,Yes,No,Immunotherapy,69.7,26,5638.77
+LC_76,54,Other,Former Smoker,Low,Yes,Stage II,6.01,Mild,No,No,Surgery,45.09,3,16483.03
+LC_77,36,Other,Current Smoker,High,Yes,Stage III,4.18,None,No,No,Immunotherapy,84.64,15,46981.1
+LC_78,81,Female,Never,Moderate,Yes,Stage III,0.59,Mild,No,No,Chemotherapy,36.51,10,87473.23
+LC_79,44,Other,Current Smoker,High,Yes,Stage I,9.69,Mild,No,No,Surgery,6.62,13,68223.96
+LC_80,40,Other,Never,High,No,Stage II,7.02,None,No,Yes,Radiation,80.22,23,93784.1
+LC_81,69,Male,Former Smoker,Moderate,Yes,Stage III,9.42,Severe,Yes,No,Chemotherapy,7.5,17,51562.12
+LC_82,43,Female,Current Smoker,Low,No,Stage I,9.62,Mild,No,Yes,Radiation,53.18,7,31021.87
+LC_83,63,Female,Current Smoker,High,No,Stage III,9.71,None,No,Yes,Immunotherapy,27.92,4,66372.6
+LC_84,53,Female,Current Smoker,Low,Yes,Stage III,7.13,Mild,Yes,Yes,Surgery,12.78,5,34100.47
+LC_85,79,Male,Never,Low,No,Stage II,3.04,Mild,No,Yes,Radiation,49.45,16,42332.77
+LC_86,81,Female,Former Smoker,High,No,Stage III,7.24,None,Yes,No,Immunotherapy,78.82,8,32617.09
+LC_87,64,Female,Former Smoker,Moderate,Yes,Stage IV,1.72,Mild,No,Yes,Immunotherapy,89.77,29,58687.94
+LC_88,79,Female,Never,Low,Yes,Stage I,9.13,None,No,No,Surgery,27.06,6,73097.27
+LC_89,36,Male,Current Smoker,High,Yes,Stage I,3.74,None,No,Yes,Surgery,24.54,17,95261.37
+LC_90,56,Female,Former Smoker,Low,No,Stage I,6.67,Mild,Yes,No,Surgery,19.24,20,92932.42
+LC_91,36,Male,Current Smoker,Moderate,Yes,Stage II,10,Mild,Yes,Yes,Immunotherapy,87.14,12,88099.61
+LC_92,48,Female,Former Smoker,High,No,Stage III,6.69,None,Yes,Yes,Immunotherapy,34.87,10,97670.92
+LC_93,56,Female,Never,High,Yes,Stage I,4.28,Severe,No,No,Surgery,31.64,12,20078.74
+LC_94,44,Other,Never,Low,No,Stage IV,4.42,None,No,No,Radiation,52.97,26,75476.7
+LC_95,35,Female,Former Smoker,Moderate,Yes,Stage II,9.82,Severe,No,Yes,Immunotherapy,35.8,5,50709.48
+LC_96,68,Male,Current Smoker,Moderate,Yes,Stage IV,3.34,None,No,Yes,Radiation,40.69,18,77439.79
+LC_97,78,Male,Former Smoker,High,No,Stage I,5.17,Severe,No,Yes,Surgery,58.75,12,94508.26
+LC_98,41,Male,Former Smoker,Low,Yes,Stage IV,9.47,Severe,No,No,Chemotherapy,59.43,13,46335.18
+LC_99,45,Other,Current Smoker,Moderate,No,Stage II,5.49,Mild,No,No,Chemotherapy,81.26,17,6370.3
+LC_100,60,Other,Former Smoker,High,No,Stage II,7.48,Mild,No,Yes,Radiation,37.73,17,96404.36
+LC_101,72,Female,Never,Low,Yes,Stage III,5.05,Mild,No,No,Radiation,75.8,16,40454.96
+LC_102,51,Male,Never,Moderate,Yes,Stage III,1.78,None,No,Yes,Radiation,67.09,12,31521.86
+LC_103,88,Male,Never,Low,Yes,Stage I,3.46,None,Yes,Yes,Chemotherapy,5.49,24,76708.16
+LC_104,42,Male,Never,Low,No,Stage IV,6.03,None,Yes,Yes,Chemotherapy,7.64,9,18206.3
+LC_105,69,Male,Current Smoker,Low,Yes,Stage IV,8.14,None,Yes,No,Radiation,20.19,24,28008.33
+LC_106,83,Female,Current Smoker,Low,No,Stage I,6.08,Mild,No,No,Chemotherapy,15.69,3,17261.97
+LC_107,46,Female,Never,Moderate,Yes,Stage III,4.62,None,No,No,Chemotherapy,27.01,13,51449.81
+LC_108,79,Female,Current Smoker,High,Yes,Stage IV,0.89,None,No,No,Immunotherapy,13.98,21,87222.14
+LC_109,86,Male,Former Smoker,High,Yes,Stage IV,7.44,Mild,No,No,Surgery,53.34,3,73530.41
+LC_110,69,Other,Current Smoker,Low,No,Stage II,5.97,Severe,No,No,Radiation,87.16,11,92434.79
+LC_111,56,Other,Former Smoker,Low,Yes,Stage II,8.25,Mild,Yes,Yes,Chemotherapy,52.99,13,31398.6
+LC_112,71,Female,Current Smoker,Moderate,No,Stage III,5.33,Mild,Yes,No,Chemotherapy,47.63,8,22452.16
+LC_113,42,Other,Never,Low,No,Stage II,6.64,None,No,Yes,Immunotherapy,38.85,12,13270.83
+LC_114,39,Other,Current Smoker,Moderate,Yes,Stage III,2.1,None,Yes,Yes,Immunotherapy,62.34,17,9288.5
+LC_115,34,Female,Former Smoker,Low,No,Stage I,2.57,None,No,Yes,Surgery,45.11,21,49802.6
+LC_116,42,Other,Current Smoker,High,Yes,Stage IV,9.45,None,No,No,Chemotherapy,55.29,29,33899.97
+LC_117,49,Other,Never,Moderate,Yes,Stage IV,8.95,None,Yes,No,Immunotherapy,84.86,8,25019.06
+LC_118,56,Female,Never,Low,Yes,Stage III,2.47,Mild,Yes,Yes,Immunotherapy,13.69,5,71428.77
+LC_119,83,Male,Never,High,No,Stage IV,9.7,Mild,Yes,No,Surgery,68.94,13,52060.88
+LC_120,36,Male,Never,High,Yes,Stage II,3.49,None,No,No,Radiation,36.38,27,16422.15
+LC_121,78,Female,Former Smoker,High,Yes,Stage II,4.18,Severe,Yes,Yes,Chemotherapy,79.85,28,51515.1
+LC_122,74,Male,Never,Low,Yes,Stage I,9.63,Mild,No,Yes,Surgery,78.94,14,60153.77
+LC_123,82,Female,Former Smoker,Low,No,Stage II,9.13,Severe,Yes,No,Radiation,66.73,25,71730.95
+LC_124,81,Female,Never,Moderate,No,Stage I,0.59,Mild,No,No,Surgery,88.06,24,84187.34
+LC_125,68,Other,Never,High,No,Stage III,2.75,None,No,Yes,Chemotherapy,13.25,24,83723.95
+LC_126,64,Female,Current Smoker,Moderate,No,Stage IV,7.35,Mild,No,Yes,Immunotherapy,13.39,5,52907.08
+LC_127,72,Female,Never,High,Yes,Stage III,5.68,None,No,No,Immunotherapy,16.35,25,97507.07
+LC_128,38,Other,Former Smoker,High,Yes,Stage II,8.24,Mild,Yes,Yes,Surgery,6.64,1,95597.95
+LC_129,66,Female,Never,Moderate,No,Stage IV,7.41,Mild,No,No,Surgery,22.5,16,56809.39
+LC_130,72,Male,Never,High,Yes,Stage IV,9.56,Mild,Yes,No,Surgery,26.39,5,91807.25
+LC_131,84,Male,Current Smoker,Moderate,No,Stage IV,1.54,Severe,Yes,Yes,Chemotherapy,44.05,9,31587.08
+LC_132,55,Other,Current Smoker,High,No,Stage IV,9.23,Severe,No,No,Radiation,41.66,4,86658.68
+LC_133,77,Male,Never,Low,Yes,Stage IV,5.53,Mild,No,Yes,Surgery,18.12,7,73131.85
+LC_134,59,Male,Current Smoker,High,Yes,Stage I,0.62,Mild,Yes,No,Radiation,7.83,28,21239.04
+LC_135,40,Male,Never,High,No,Stage IV,8.53,Mild,Yes,No,Chemotherapy,34.05,27,66495.28
+LC_136,49,Female,Current Smoker,Moderate,No,Stage IV,7.86,Mild,Yes,Yes,Surgery,84.78,8,6294.91
+LC_137,66,Male,Never,High,Yes,Stage IV,3.26,None,Yes,Yes,Immunotherapy,60.83,15,28698.95
+LC_138,68,Male,Current Smoker,High,No,Stage II,7.89,Severe,Yes,No,Radiation,67.72,27,65972.46
+LC_139,87,Male,Current Smoker,Moderate,Yes,Stage IV,2.63,None,No,Yes,Radiation,74.02,18,83203.56
+LC_140,70,Female,Current Smoker,Moderate,No,Stage II,2.34,Severe,Yes,No,Immunotherapy,88.96,25,37618.01
+LC_141,78,Other,Former Smoker,Moderate,No,Stage IV,6.51,Mild,Yes,Yes,Surgery,35.73,27,94983.72
+LC_142,69,Male,Never,Low,No,Stage II,2.02,Mild,Yes,No,Immunotherapy,26.78,18,61631.81
+LC_143,50,Male,Former Smoker,Low,No,Stage III,8.38,Mild,No,Yes,Immunotherapy,63.01,26,9985.17
+LC_144,34,Female,Never,Moderate,No,Stage II,7.01,Mild,No,No,Immunotherapy,50.56,21,71764.44
+LC_145,50,Female,Never,High,Yes,Stage IV,7.3,None,No,No,Surgery,50.57,25,97597.08
+LC_146,41,Female,Former Smoker,Low,Yes,Stage IV,0.66,Mild,No,Yes,Radiation,28.02,12,38764.5
+LC_147,61,Other,Never,High,Yes,Stage IV,6.76,Severe,No,Yes,Chemotherapy,27.99,17,44825.18
+LC_148,44,Male,Never,Low,Yes,Stage III,3.78,Mild,No,Yes,Radiation,71.79,19,86891.78
+LC_149,43,Female,Current Smoker,Moderate,Yes,Stage IV,2.71,None,No,Yes,Chemotherapy,67.47,14,18267.04
+LC_150,42,Male,Never,Moderate,Yes,Stage I,2.37,Mild,No,No,Immunotherapy,48.41,11,9415.69
+LC_151,63,Other,Current Smoker,Low,No,Stage IV,5.6,Severe,Yes,Yes,Immunotherapy,77.59,12,42771.52
+LC_152,67,Male,Never,Moderate,No,Stage IV,8,None,Yes,No,Immunotherapy,28.56,7,80668.12
+LC_153,83,Male,Current Smoker,High,Yes,Stage III,1.02,Mild,No,No,Radiation,7.41,8,79313.76
+LC_154,70,Male,Current Smoker,Low,No,Stage IV,7.71,Severe,No,No,Surgery,9.77,21,43475.79
+LC_155,87,Female,Current Smoker,Low,Yes,Stage I,3.79,None,Yes,Yes,Immunotherapy,36.95,15,5980.72
+LC_156,58,Female,Current Smoker,Low,No,Stage III,1.36,None,Yes,No,Chemotherapy,38.91,13,7215.99
+LC_157,72,Other,Current Smoker,Moderate,No,Stage I,4.27,None,Yes,No,Surgery,5.95,20,59702.26
+LC_158,36,Male,Never,Moderate,Yes,Stage II,4.18,None,Yes,No,Surgery,6.32,19,30402.18
+LC_159,57,Other,Current Smoker,Low,No,Stage II,8.94,Mild,Yes,Yes,Chemotherapy,61.25,29,38242.77
+LC_160,88,Other,Former Smoker,High,Yes,Stage IV,5.09,Mild,Yes,No,Chemotherapy,55.96,1,49994.68
+LC_161,40,Other,Current Smoker,High,No,Stage IV,4.5,Severe,Yes,No,Surgery,29.05,21,84527.82
+LC_162,59,Male,Current Smoker,Moderate,No,Stage III,9.87,Mild,Yes,No,Chemotherapy,5.66,17,84185.78
+LC_163,86,Female,Former Smoker,High,Yes,Stage I,2.07,Severe,No,No,Radiation,20.74,11,80721.71
+LC_164,34,Male,Current Smoker,High,Yes,Stage III,2.74,Severe,Yes,Yes,Immunotherapy,84.79,29,30217.14
+LC_165,75,Female,Former Smoker,Low,No,Stage IV,1.78,None,Yes,No,Chemotherapy,68.55,8,11236.05
+LC_166,50,Female,Former Smoker,High,Yes,Stage III,5.98,Severe,Yes,No,Radiation,29.84,17,66520.66
+LC_167,71,Female,Never,Moderate,Yes,Stage III,4.8,Severe,No,No,Immunotherapy,55.74,24,29571.52
+LC_168,79,Male,Current Smoker,High,No,Stage II,6.35,None,No,Yes,Immunotherapy,82.45,29,74461.75
+LC_169,45,Other,Current Smoker,Moderate,Yes,Stage III,3.58,None,Yes,Yes,Radiation,63.13,1,68578.91
+LC_170,76,Male,Former Smoker,Moderate,Yes,Stage III,0.65,Severe,Yes,No,Chemotherapy,51.11,17,56143.59
+LC_171,83,Male,Former Smoker,High,Yes,Stage II,7.98,None,No,No,Chemotherapy,58.93,17,23014.21
+LC_172,84,Other,Never,High,No,Stage II,0.86,Mild,No,Yes,Radiation,81.38,26,60787.05
+LC_173,55,Male,Current Smoker,High,Yes,Stage III,5.34,None,No,Yes,Surgery,81.62,12,26594.83
+LC_174,83,Other,Former Smoker,Moderate,No,Stage I,6.72,None,Yes,Yes,Surgery,8.09,2,76695.56
+LC_175,32,Male,Never,Moderate,Yes,Stage I,8.27,Severe,Yes,No,Chemotherapy,36.61,6,57576.07
+LC_176,69,Male,Never,Moderate,No,Stage III,6.25,Mild,Yes,Yes,Radiation,59.74,11,66797.65
+LC_177,85,Male,Current Smoker,Low,Yes,Stage IV,1.95,Severe,No,No,Radiation,70.79,14,9534.5
+LC_178,72,Other,Never,High,No,Stage IV,6.83,None,No,No,Surgery,81.53,10,62774.43
+LC_179,86,Male,Former Smoker,Moderate,Yes,Stage I,2.37,Mild,Yes,Yes,Immunotherapy,29.05,9,95752.06
+LC_180,30,Male,Current Smoker,High,No,Stage IV,9.06,Severe,No,No,Radiation,6.39,11,58804.23
+LC_181,51,Female,Current Smoker,Moderate,Yes,Stage II,9.47,Mild,Yes,Yes,Immunotherapy,31.28,18,15927.25
+LC_182,70,Other,Current Smoker,Moderate,Yes,Stage I,9.64,None,No,Yes,Chemotherapy,46.7,10,15244.68
+LC_183,64,Female,Current Smoker,High,No,Stage II,2.47,None,Yes,No,Surgery,67.16,5,42164.68
+LC_184,36,Other,Never,Moderate,No,Stage IV,9,None,No,No,Radiation,37.44,9,19260.17
+LC_185,55,Female,Current Smoker,Moderate,Yes,Stage III,6.09,Severe,No,Yes,Chemotherapy,34.64,6,21256.54
+LC_186,45,Other,Former Smoker,High,Yes,Stage III,2.25,Mild,Yes,No,Radiation,67.1,28,61602.69
+LC_187,61,Other,Current Smoker,Low,No,Stage IV,4.03,None,Yes,No,Radiation,56.8,5,11797.94
+LC_188,72,Female,Never,Low,No,Stage I,4.99,Mild,No,No,Surgery,82.61,6,56069.54
+LC_189,57,Male,Former Smoker,Low,No,Stage I,0.79,Severe,Yes,Yes,Radiation,80.41,14,70192.73
+LC_190,79,Male,Current Smoker,Low,Yes,Stage IV,1.57,Mild,Yes,Yes,Chemotherapy,5.37,9,19303.52
+LC_191,68,Male,Current Smoker,Moderate,Yes,Stage IV,6.44,Severe,No,No,Radiation,78.93,16,94178.76
+LC_192,75,Female,Never,Moderate,No,Stage II,2.09,Mild,No,Yes,Surgery,23.34,6,81515.71
+LC_193,42,Male,Never,High,No,Stage IV,3.09,Mild,No,Yes,Immunotherapy,68.18,9,62495.58
+LC_194,42,Other,Former Smoker,Low,Yes,Stage IV,1.03,Severe,No,Yes,Immunotherapy,17.6,1,80110.33
+LC_195,79,Other,Never,High,No,Stage IV,6.31,Mild,No,No,Chemotherapy,18.82,7,51361.42
+LC_196,72,Male,Former Smoker,High,Yes,Stage II,6.92,Severe,Yes,Yes,Surgery,59.38,7,37362.02
+LC_197,74,Female,Current Smoker,High,No,Stage I,2.73,Severe,No,No,Surgery,65.2,27,73391.27
+LC_198,72,Female,Never,Moderate,No,Stage III,5.92,Severe,No,Yes,Chemotherapy,69.28,5,62662.64
+LC_199,51,Other,Current Smoker,Low,Yes,Stage I,1.88,Mild,Yes,Yes,Chemotherapy,79.39,8,70559.4
+LC_200,54,Female,Never,High,No,Stage III,6.55,None,No,No,Surgery,25.36,1,58657.34
+LC_201,80,Other,Never,Moderate,No,Stage IV,4.85,Mild,Yes,Yes,Surgery,14.99,23,37265.03
+LC_202,60,Female,Former Smoker,Low,Yes,Stage II,0.97,Severe,Yes,Yes,Immunotherapy,28.06,1,13291.74
+LC_203,89,Other,Former Smoker,Moderate,Yes,Stage III,6.49,None,Yes,No,Surgery,59.52,24,16813.88
+LC_204,53,Other,Never,High,Yes,Stage IV,3.73,Severe,Yes,Yes,Radiation,5.15,12,76662.54
+LC_205,60,Male,Current Smoker,Moderate,No,Stage III,3.19,None,Yes,Yes,Radiation,75.58,25,9698.96
+LC_206,43,Female,Never,Low,No,Stage I,8.49,None,No,Yes,Immunotherapy,59.41,20,18915.94
+LC_207,75,Male,Current Smoker,Moderate,No,Stage II,9.6,Severe,Yes,No,Surgery,86.27,16,88798.47
+LC_208,81,Male,Never,High,Yes,Stage I,2,Severe,Yes,Yes,Immunotherapy,54.42,26,88864.12
+LC_209,32,Female,Former Smoker,Moderate,No,Stage I,1.39,None,Yes,No,Immunotherapy,88.71,8,59107.49
+LC_210,75,Other,Never,Low,Yes,Stage II,0.52,Mild,Yes,Yes,Immunotherapy,41.12,4,87198.02
+LC_211,40,Male,Never,Moderate,Yes,Stage I,2.73,Severe,Yes,No,Immunotherapy,14.23,25,43781.94
+LC_212,50,Other,Never,Moderate,Yes,Stage IV,4.8,Severe,No,Yes,Radiation,17.89,2,11157.63
+LC_213,53,Other,Current Smoker,Moderate,Yes,Stage I,1.45,Severe,Yes,Yes,Immunotherapy,88.53,18,90621.67
+LC_214,61,Female,Former Smoker,Moderate,Yes,Stage IV,9.16,Severe,Yes,No,Radiation,37.25,17,74389.62
+LC_215,47,Male,Former Smoker,High,Yes,Stage IV,4.57,Mild,No,Yes,Immunotherapy,89.98,11,58159.36
+LC_216,34,Other,Current Smoker,Low,No,Stage I,2.77,None,No,Yes,Chemotherapy,50.02,5,12962.95
+LC_217,36,Male,Never,High,Yes,Stage II,8.77,None,Yes,Yes,Immunotherapy,67.01,19,77693.15
+LC_218,78,Other,Never,Low,Yes,Stage II,8.71,None,Yes,Yes,Chemotherapy,87.52,14,84622.02
+LC_219,75,Other,Never,Low,No,Stage III,9.32,Mild,Yes,No,Surgery,22.9,13,42126.26
+LC_220,63,Other,Former Smoker,Low,No,Stage I,5.83,Mild,No,Yes,Radiation,39.91,9,71484.96
+LC_221,54,Female,Former Smoker,Low,No,Stage III,8.44,Mild,No,Yes,Chemotherapy,71.75,5,39009.71
+LC_222,86,Female,Never,Low,No,Stage III,0.97,Severe,Yes,No,Surgery,78.16,4,78944.12
+LC_223,52,Other,Former Smoker,Low,No,Stage IV,0.51,Severe,No,Yes,Immunotherapy,21.34,4,57680.18
+LC_224,72,Female,Former Smoker,High,Yes,Stage I,3.4,Mild,No,Yes,Immunotherapy,12.19,17,56115.98
+LC_225,75,Other,Former Smoker,Moderate,Yes,Stage II,7.29,Mild,No,Yes,Immunotherapy,83.12,9,17676.28
+LC_226,71,Other,Former Smoker,Low,Yes,Stage IV,7.43,Mild,Yes,Yes,Surgery,6.43,16,23196.12
+LC_227,67,Male,Never,Low,No,Stage II,7.92,Mild,Yes,Yes,Surgery,5.95,11,77156.38
+LC_228,58,Male,Never,High,No,Stage II,0.72,Mild,No,Yes,Chemotherapy,17.7,27,11115.21
+LC_229,60,Male,Never,High,No,Stage IV,4.25,Severe,No,Yes,Immunotherapy,51.33,20,59108.57
+LC_230,68,Other,Former Smoker,High,No,Stage IV,8.42,None,Yes,No,Surgery,88.67,14,85835.8
+LC_231,78,Male,Former Smoker,High,No,Stage II,2.2,Severe,No,Yes,Immunotherapy,8.94,22,64146.47
+LC_232,43,Other,Former Smoker,Moderate,Yes,Stage IV,4.01,Severe,Yes,Yes,Chemotherapy,15.7,14,83969.46
+LC_233,37,Male,Never,Moderate,Yes,Stage III,4.87,None,No,No,Surgery,47.76,16,67181.61
+LC_234,40,Female,Never,High,No,Stage II,5.98,Mild,Yes,Yes,Surgery,58.39,3,75781.48
+LC_235,69,Male,Current Smoker,Moderate,No,Stage II,6.95,None,Yes,Yes,Chemotherapy,36.91,22,26104.78
+LC_236,75,Other,Never,Moderate,No,Stage I,7.58,Severe,No,No,Chemotherapy,83.99,16,79035.81
+LC_237,31,Female,Former Smoker,High,Yes,Stage I,1.59,None,Yes,Yes,Immunotherapy,35.1,19,9743.04
+LC_238,77,Male,Never,Moderate,Yes,Stage III,2.4,None,No,Yes,Chemotherapy,66.69,3,13232.19
+LC_239,42,Female,Former Smoker,Moderate,No,Stage III,1.05,Mild,Yes,No,Surgery,16.37,12,5927.16
+LC_240,36,Male,Never,High,Yes,Stage IV,3.15,Mild,No,No,Chemotherapy,27.21,24,88499.17
+LC_241,33,Male,Current Smoker,Moderate,Yes,Stage II,2.01,None,Yes,No,Radiation,23.54,4,41347.75
+LC_242,61,Male,Former Smoker,Moderate,Yes,Stage II,1.1,Severe,Yes,No,Chemotherapy,6.61,17,70163.5
+LC_243,54,Other,Current Smoker,High,No,Stage I,1.79,Severe,No,No,Chemotherapy,80.1,23,40587.7
+LC_244,61,Other,Former Smoker,Moderate,Yes,Stage II,6.01,Severe,Yes,Yes,Chemotherapy,43.22,28,27017.44
+LC_245,50,Male,Never,Low,Yes,Stage II,7.5,Severe,No,Yes,Surgery,37.57,20,48143.46
+LC_246,32,Other,Current Smoker,High,No,Stage IV,8.7,Severe,Yes,Yes,Radiation,19.79,29,62152.58
+LC_247,39,Female,Current Smoker,High,Yes,Stage III,4.92,Mild,Yes,Yes,Immunotherapy,38.79,12,55499.28
+LC_248,54,Female,Never,High,No,Stage III,1.01,None,No,Yes,Immunotherapy,69.52,12,36589.91
+LC_249,66,Female,Never,Moderate,Yes,Stage III,6.05,Severe,No,Yes,Chemotherapy,68.88,14,70194.21
+LC_250,64,Female,Former Smoker,Low,Yes,Stage II,0.58,Severe,No,Yes,Chemotherapy,64.97,13,49112.27
+LC_251,63,Female,Never,Moderate,Yes,Stage II,5.39,Mild,Yes,No,Immunotherapy,40.49,13,83845.19
+LC_252,80,Female,Current Smoker,Moderate,Yes,Stage III,4.21,Severe,No,Yes,Radiation,83.33,9,57299.6
+LC_253,82,Male,Never,High,Yes,Stage II,5.78,None,No,Yes,Surgery,61.89,12,47258.86
+LC_254,34,Female,Current Smoker,High,No,Stage I,7.22,Severe,No,Yes,Radiation,28.6,20,7987.64
+LC_255,85,Female,Current Smoker,Low,No,Stage II,4.08,Severe,No,Yes,Surgery,21.05,16,78616.84
+LC_256,74,Female,Current Smoker,High,No,Stage III,2.54,Mild,No,Yes,Immunotherapy,30.2,21,83527.14
+LC_257,80,Male,Former Smoker,High,Yes,Stage II,7.52,None,Yes,No,Radiation,66.38,26,48076.47
+LC_258,85,Other,Current Smoker,Moderate,Yes,Stage III,8.19,Mild,Yes,No,Surgery,43.18,13,50915.88
+LC_259,78,Other,Former Smoker,High,Yes,Stage II,7.63,Severe,Yes,Yes,Surgery,32.58,27,23441.23
+LC_260,33,Female,Never,Low,No,Stage III,3.73,Severe,No,Yes,Radiation,50.08,5,73172.22
+LC_261,68,Other,Current Smoker,High,Yes,Stage II,1.18,Severe,Yes,Yes,Immunotherapy,24.14,5,16614.99
+LC_262,86,Female,Former Smoker,Moderate,Yes,Stage IV,3.12,None,Yes,No,Radiation,83.9,21,90118.26
+LC_263,72,Female,Current Smoker,High,No,Stage IV,1.94,Severe,Yes,No,Chemotherapy,59.18,19,39633.35
+LC_264,69,Female,Never,Moderate,No,Stage III,8.83,Mild,Yes,Yes,Chemotherapy,87.65,4,78731.25
+LC_265,86,Male,Never,High,No,Stage IV,8.75,Severe,No,Yes,Chemotherapy,84.25,7,66416.46
+LC_266,62,Female,Never,High,Yes,Stage IV,8.69,Severe,Yes,Yes,Surgery,30.84,19,71280.02
+LC_267,59,Female,Former Smoker,High,Yes,Stage I,1.18,Severe,Yes,Yes,Chemotherapy,6.39,7,63127.79
+LC_268,48,Other,Former Smoker,High,No,Stage II,4.48,None,Yes,No,Surgery,35.65,27,67979.85
+LC_269,55,Male,Current Smoker,Moderate,No,Stage IV,7.31,Severe,No,No,Immunotherapy,81.09,7,90397.68
+LC_270,59,Female,Current Smoker,High,Yes,Stage IV,8.8,Severe,Yes,Yes,Surgery,79.92,29,18499.9
+LC_271,67,Female,Never,High,Yes,Stage III,2.26,None,No,No,Radiation,59.42,27,65346.27
+LC_272,69,Other,Former Smoker,High,No,Stage I,6.41,Severe,Yes,Yes,Radiation,29.5,13,46440.79
+LC_273,43,Female,Never,Low,Yes,Stage I,8.55,None,No,Yes,Radiation,37.98,20,57404.36
+LC_274,30,Male,Current Smoker,Low,No,Stage II,8.99,None,Yes,Yes,Surgery,16.28,13,56671.41
+LC_275,33,Other,Current Smoker,Low,Yes,Stage III,2.49,None,Yes,No,Immunotherapy,58.79,15,16740.84
+LC_276,46,Other,Current Smoker,High,No,Stage II,5.55,Severe,Yes,No,Surgery,10.84,4,80328.17
+LC_277,73,Male,Never,Moderate,No,Stage I,8.5,None,Yes,No,Surgery,76.74,23,17522.77
+LC_278,83,Female,Former Smoker,Moderate,Yes,Stage IV,9.07,Mild,No,No,Chemotherapy,76.22,13,79456.94
+LC_279,51,Female,Current Smoker,Moderate,Yes,Stage III,8.54,Mild,No,Yes,Surgery,19.3,20,47687.24
+LC_280,37,Male,Current Smoker,Moderate,Yes,Stage IV,7.43,Mild,No,Yes,Immunotherapy,76.46,4,93378.09
+LC_281,59,Male,Never,Low,Yes,Stage II,4.79,Mild,No,No,Surgery,74.39,20,55468.22
+LC_282,41,Other,Former Smoker,Moderate,Yes,Stage III,6.5,None,No,Yes,Radiation,78.96,27,97004.67
+LC_283,42,Female,Never,Low,Yes,Stage II,1.7,Severe,Yes,Yes,Immunotherapy,22.01,20,65348.03
+LC_284,58,Male,Current Smoker,Low,No,Stage II,5.97,Mild,Yes,Yes,Surgery,84.2,22,18581.23
+LC_285,50,Female,Current Smoker,Moderate,Yes,Stage I,5.43,None,Yes,No,Surgery,16.28,27,63130.36
+LC_286,74,Other,Never,High,Yes,Stage III,2.19,Mild,Yes,No,Chemotherapy,76.27,21,93868.96
+LC_287,81,Male,Never,Low,Yes,Stage IV,8.47,None,Yes,Yes,Radiation,30.48,16,46827.48
+LC_288,42,Other,Current Smoker,High,No,Stage III,9.08,Severe,No,Yes,Surgery,66.25,21,16655.99
+LC_289,76,Male,Never,Moderate,No,Stage IV,9.2,None,Yes,Yes,Surgery,22.43,16,84842.93
+LC_290,30,Male,Former Smoker,High,No,Stage IV,5.86,Mild,No,Yes,Chemotherapy,55.15,27,40724.03
+LC_291,38,Female,Never,Moderate,No,Stage III,1.76,Severe,Yes,Yes,Surgery,75.38,18,9128.44
+LC_292,77,Male,Never,Moderate,No,Stage IV,1.69,Severe,No,Yes,Surgery,45.98,28,89191.84
+LC_293,58,Male,Never,Low,Yes,Stage IV,6.18,None,No,Yes,Surgery,31.68,1,88086.83
+LC_294,32,Male,Never,High,Yes,Stage III,2.14,Mild,Yes,No,Chemotherapy,89.29,27,13131.55
+LC_295,31,Male,Never,Moderate,No,Stage IV,8.21,Severe,Yes,No,Surgery,74.02,28,20067.95
+LC_296,62,Other,Former Smoker,Low,Yes,Stage III,4.5,Severe,Yes,No,Immunotherapy,28.9,9,43323.6
+LC_297,30,Male,Former Smoker,Low,Yes,Stage I,9.5,Mild,Yes,No,Surgery,69.5,10,49353.51
+LC_298,73,Male,Current Smoker,Low,No,Stage IV,7.61,None,No,No,Chemotherapy,53.39,18,55508.51
+LC_299,31,Female,Current Smoker,High,Yes,Stage I,6.08,None,Yes,Yes,Chemotherapy,71.36,14,49253.27
+LC_300,44,Other,Former Smoker,Moderate,No,Stage IV,9.73,Mild,Yes,No,Chemotherapy,83.9,17,49587.49
+LC_301,84,Male,Current Smoker,Moderate,No,Stage III,2.78,Severe,Yes,No,Chemotherapy,84.3,16,79229.63
+LC_302,60,Other,Never,Low,No,Stage IV,6.81,Mild,Yes,No,Chemotherapy,16.61,6,14264.29
+LC_303,77,Female,Former Smoker,Moderate,Yes,Stage I,3.34,Severe,No,Yes,Surgery,26.49,25,17248.88
+LC_304,81,Other,Former Smoker,Low,Yes,Stage IV,1.03,None,No,Yes,Radiation,68.32,25,32448.84
+LC_305,40,Male,Former Smoker,Low,Yes,Stage I,7.38,None,Yes,Yes,Radiation,8.2,1,98382.97
+LC_306,59,Male,Current Smoker,High,No,Stage I,7.1,Mild,No,Yes,Radiation,27.22,22,11842.85
+LC_307,38,Female,Former Smoker,Low,Yes,Stage III,4.24,Mild,Yes,No,Surgery,28.51,16,42570.3
+LC_308,45,Male,Current Smoker,High,Yes,Stage I,6.29,Severe,No,Yes,Chemotherapy,69.51,4,64107.4
+LC_309,66,Female,Former Smoker,High,Yes,Stage II,3.32,None,No,Yes,Chemotherapy,40.93,25,95914.66
+LC_310,45,Male,Current Smoker,Low,No,Stage I,0.85,Severe,Yes,Yes,Chemotherapy,80.35,3,53256.67
+LC_311,69,Male,Former Smoker,Moderate,No,Stage II,7.8,Mild,No,No,Radiation,47.79,11,51953.04
+LC_312,82,Male,Former Smoker,Moderate,Yes,Stage III,9.98,Mild,Yes,No,Immunotherapy,32,20,75246.86
+LC_313,87,Male,Current Smoker,Low,Yes,Stage I,5,None,Yes,No,Surgery,75.48,14,97701.39
+LC_314,61,Female,Never,Low,Yes,Stage I,6.83,None,No,No,Radiation,48.58,6,95677.13
+LC_315,77,Other,Former Smoker,Low,Yes,Stage II,2.96,None,Yes,Yes,Chemotherapy,21.64,3,93740.21
+LC_316,63,Female,Never,Moderate,No,Stage IV,4.94,Mild,Yes,No,Surgery,15.33,15,38900.59
+LC_317,76,Male,Never,High,No,Stage III,0.95,Mild,Yes,Yes,Radiation,58.39,29,92785.53
+LC_318,34,Other,Never,Low,No,Stage I,8.15,None,Yes,Yes,Immunotherapy,5.65,11,23399.36
+LC_319,68,Female,Never,High,Yes,Stage I,1.88,Severe,Yes,No,Immunotherapy,69.69,2,87243.2
+LC_320,36,Other,Former Smoker,High,No,Stage II,6.93,None,No,No,Radiation,49.45,5,99799.16
+LC_321,54,Female,Former Smoker,Moderate,Yes,Stage IV,8.52,None,Yes,Yes,Surgery,88.59,20,60065.94
+LC_322,59,Male,Current Smoker,High,No,Stage II,9.16,Mild,No,Yes,Immunotherapy,68.69,27,97846.71
+LC_323,57,Female,Current Smoker,Low,Yes,Stage III,6.48,None,No,Yes,Chemotherapy,63.83,25,28068.91
+LC_324,32,Other,Never,Moderate,No,Stage II,9.58,Mild,Yes,Yes,Chemotherapy,36.56,10,72279.51
+LC_325,49,Other,Never,Moderate,Yes,Stage III,4.26,None,Yes,Yes,Radiation,35.79,25,73857.66
+LC_326,60,Female,Never,Moderate,Yes,Stage IV,9.19,Severe,Yes,No,Radiation,19.49,7,35291.17
+LC_327,30,Male,Former Smoker,Moderate,No,Stage I,9.31,None,Yes,No,Surgery,20.97,8,63311.07
+LC_328,56,Other,Current Smoker,Low,Yes,Stage IV,1.02,Severe,No,No,Chemotherapy,55.13,8,38209.96
+LC_329,89,Other,Never,Low,Yes,Stage III,7.57,Mild,No,Yes,Radiation,82.52,4,63203.54
+LC_330,80,Female,Never,Low,No,Stage IV,1.53,Severe,No,No,Radiation,19.02,10,96541.68
+LC_331,71,Female,Never,Low,Yes,Stage I,3.6,Mild,Yes,Yes,Chemotherapy,17.94,22,66493.13
+LC_332,41,Other,Current Smoker,Moderate,Yes,Stage III,5.41,None,Yes,Yes,Immunotherapy,86.57,25,45972.02
+LC_333,44,Male,Former Smoker,Low,No,Stage II,6.94,None,No,Yes,Chemotherapy,46.49,18,21858.63
+LC_334,47,Female,Current Smoker,Moderate,Yes,Stage III,8.51,Severe,Yes,No,Immunotherapy,8,23,10211.38
+LC_335,84,Other,Former Smoker,Moderate,No,Stage IV,5.03,Mild,Yes,Yes,Chemotherapy,83.69,13,11049.68
+LC_336,66,Other,Former Smoker,Moderate,No,Stage I,6.42,Severe,Yes,No,Surgery,29.5,21,53627.75
+LC_337,71,Female,Current Smoker,Low,Yes,Stage III,9.38,Severe,No,No,Immunotherapy,40.08,19,26158.32
+LC_338,52,Female,Former Smoker,High,Yes,Stage III,5.22,Mild,Yes,Yes,Immunotherapy,65.07,14,75985.88
+LC_339,78,Male,Former Smoker,High,No,Stage III,7.04,Severe,No,Yes,Chemotherapy,34.96,3,18965.5
+LC_340,48,Other,Current Smoker,Low,Yes,Stage III,9.59,None,Yes,No,Surgery,42.76,29,20708.35
+LC_341,77,Other,Never,Low,Yes,Stage I,1.35,Mild,Yes,Yes,Immunotherapy,42.4,22,61433.48
+LC_342,77,Male,Former Smoker,Low,No,Stage II,5.71,Severe,No,No,Radiation,22.36,6,25180.02
+LC_343,49,Other,Former Smoker,Low,No,Stage I,9.94,Severe,Yes,No,Radiation,25.94,19,8275.19
+LC_344,84,Male,Current Smoker,High,Yes,Stage IV,9.82,Mild,No,No,Radiation,71.6,2,79560.27
+LC_345,87,Male,Never,Low,No,Stage III,3.83,None,Yes,Yes,Surgery,33,19,22074.43
+LC_346,59,Other,Former Smoker,High,Yes,Stage II,2,Mild,No,Yes,Radiation,84.65,16,80477.99
+LC_347,61,Other,Former Smoker,Moderate,No,Stage II,7.56,Severe,No,Yes,Radiation,49.69,13,43731.39
+LC_348,54,Other,Former Smoker,Moderate,Yes,Stage II,0.92,None,No,Yes,Immunotherapy,23.34,10,92760.19
+LC_349,65,Male,Former Smoker,High,Yes,Stage II,5.22,Severe,No,Yes,Radiation,14.09,29,97702.46
+LC_350,62,Other,Current Smoker,Moderate,No,Stage I,8.91,Severe,No,No,Immunotherapy,8.34,20,55677.94
+LC_351,32,Other,Never,Moderate,No,Stage III,3.39,None,Yes,No,Chemotherapy,41.73,14,57932.99
+LC_352,40,Other,Former Smoker,Moderate,Yes,Stage II,9.94,None,No,No,Immunotherapy,36.68,3,90281.74
+LC_353,71,Female,Never,Low,No,Stage IV,6.77,None,Yes,No,Radiation,67.01,4,16570.28
+LC_354,69,Female,Former Smoker,Moderate,Yes,Stage III,9.73,Mild,No,Yes,Surgery,81.09,29,18804.09
+LC_355,57,Female,Current Smoker,High,Yes,Stage IV,5.65,Severe,No,Yes,Chemotherapy,47.33,25,7872.21
+LC_356,61,Male,Never,Low,Yes,Stage III,5.18,None,No,No,Surgery,22.86,28,72220.26
+LC_357,46,Female,Never,Low,No,Stage III,5.97,Severe,Yes,Yes,Surgery,43.51,24,38020.08
+LC_358,83,Male,Current Smoker,Moderate,No,Stage IV,2.83,Severe,No,No,Immunotherapy,10.16,2,92565.91
+LC_359,50,Male,Former Smoker,Moderate,No,Stage III,4.91,None,No,No,Immunotherapy,49.53,1,76901.65
+LC_360,45,Male,Current Smoker,Moderate,No,Stage IV,0.65,Severe,Yes,Yes,Immunotherapy,66.92,13,69368.52
+LC_361,57,Female,Former Smoker,Moderate,Yes,Stage IV,4.27,Mild,Yes,No,Radiation,86.24,15,24818.67
+LC_362,34,Other,Never,Low,Yes,Stage II,6.05,Mild,Yes,Yes,Radiation,52.84,1,96485.05
+LC_363,89,Male,Former Smoker,High,Yes,Stage IV,2.13,Mild,No,No,Radiation,18.07,23,86542.81
+LC_364,85,Female,Current Smoker,High,No,Stage IV,8.29,Severe,Yes,Yes,Chemotherapy,87.66,4,57475.9
+LC_365,37,Other,Never,Low,Yes,Stage IV,1.64,Mild,No,Yes,Chemotherapy,25.48,5,70872.53
+LC_366,34,Male,Never,Low,No,Stage I,8,None,No,Yes,Surgery,78.42,7,44569.52
+LC_367,75,Other,Former Smoker,Moderate,No,Stage I,2.04,None,Yes,No,Chemotherapy,34.93,3,88225.85
+LC_368,55,Male,Former Smoker,High,No,Stage III,0.72,Mild,Yes,No,Surgery,54.19,17,73255.83
+LC_369,53,Male,Current Smoker,Moderate,No,Stage II,5.17,Mild,No,No,Surgery,80.22,19,97760.44
+LC_370,60,Other,Current Smoker,Low,Yes,Stage III,6.92,Severe,Yes,No,Surgery,51.88,27,80920.91
+LC_371,49,Male,Never,High,Yes,Stage III,8.15,None,No,Yes,Chemotherapy,47.06,27,66975.35
+LC_372,30,Female,Former Smoker,Moderate,Yes,Stage II,5.11,Severe,No,Yes,Immunotherapy,54.84,22,41481.79
+LC_373,42,Other,Former Smoker,Low,Yes,Stage I,9.65,None,Yes,Yes,Radiation,11.23,13,71156.63
+LC_374,65,Female,Former Smoker,High,No,Stage III,1.07,Mild,No,Yes,Chemotherapy,85.05,14,95255.04
+LC_375,36,Female,Former Smoker,Low,Yes,Stage IV,6.55,None,Yes,No,Immunotherapy,18.95,24,7302.28
+LC_376,43,Female,Former Smoker,Moderate,Yes,Stage III,1.61,Severe,Yes,Yes,Immunotherapy,13.37,22,80357.69
+LC_377,69,Male,Never,Low,Yes,Stage II,7.37,None,No,Yes,Chemotherapy,49.05,21,53559.68
+LC_378,69,Male,Former Smoker,High,No,Stage III,9.96,None,No,No,Chemotherapy,15.78,5,20625.96
+LC_379,57,Other,Former Smoker,Low,Yes,Stage I,8.92,None,Yes,Yes,Surgery,24.3,25,14486.61
+LC_380,87,Other,Current Smoker,Low,No,Stage I,7.53,Mild,Yes,No,Chemotherapy,15.22,19,28408.59
+LC_381,64,Other,Current Smoker,High,Yes,Stage IV,6.61,None,No,Yes,Radiation,7.04,15,99980.62
+LC_382,70,Female,Current Smoker,High,No,Stage II,7.46,Severe,Yes,Yes,Surgery,30.89,25,99898.57
+LC_383,30,Male,Former Smoker,High,Yes,Stage II,0.54,Severe,Yes,Yes,Chemotherapy,50.03,24,17453.32
+LC_384,33,Female,Former Smoker,Moderate,No,Stage IV,6.69,Severe,Yes,No,Chemotherapy,87.78,26,73283.05
+LC_385,39,Other,Current Smoker,Low,No,Stage I,8.88,Mild,Yes,Yes,Surgery,80.61,23,99669.73
+LC_386,45,Other,Former Smoker,High,Yes,Stage II,0.79,Severe,Yes,No,Surgery,21.62,22,91724.77
+LC_387,57,Female,Current Smoker,Moderate,No,Stage IV,7.29,Mild,Yes,Yes,Radiation,76.22,6,47557.97
+LC_388,87,Female,Never,Low,No,Stage III,4.22,None,Yes,Yes,Chemotherapy,73.97,23,33759.53
+LC_389,88,Female,Current Smoker,Moderate,No,Stage II,1.02,Severe,Yes,No,Immunotherapy,53.76,2,76520.04
+LC_390,38,Male,Current Smoker,Moderate,Yes,Stage IV,2.95,Severe,Yes,No,Immunotherapy,11.31,22,72033.16
+LC_391,41,Other,Never,Moderate,No,Stage I,3.28,Severe,Yes,Yes,Immunotherapy,85.59,12,15451.87
+LC_392,34,Female,Current Smoker,Moderate,Yes,Stage IV,9.15,None,No,Yes,Immunotherapy,70.81,25,71579.35
+LC_393,83,Female,Current Smoker,High,No,Stage I,5.07,Mild,No,Yes,Immunotherapy,32.87,12,89279.9
+LC_394,84,Other,Former Smoker,Moderate,No,Stage II,1.05,Severe,Yes,Yes,Immunotherapy,79.63,29,73720.54
+LC_395,72,Other,Former Smoker,High,Yes,Stage IV,0.86,Severe,Yes,Yes,Surgery,38.61,16,85146.17
+LC_396,37,Female,Current Smoker,High,Yes,Stage III,2.87,Mild,No,Yes,Surgery,89.54,12,29409.97
+LC_397,72,Male,Current Smoker,Low,Yes,Stage II,6.37,None,No,No,Immunotherapy,23.97,17,98508.73
+LC_398,35,Female,Current Smoker,Moderate,No,Stage IV,5.77,Severe,No,No,Immunotherapy,54.13,8,73089.51
+LC_399,67,Female,Current Smoker,Moderate,Yes,Stage I,7.95,None,Yes,No,Radiation,73.08,3,38561.13
+LC_400,61,Female,Former Smoker,Moderate,No,Stage I,4.94,Severe,Yes,Yes,Radiation,80.78,12,24662.35
+LC_401,48,Female,Never,Moderate,No,Stage I,1.05,Mild,Yes,No,Surgery,21.21,22,36927.3
+LC_402,30,Other,Current Smoker,Low,Yes,Stage II,5.15,None,No,No,Radiation,16.29,25,62152.77
+LC_403,68,Female,Former Smoker,High,No,Stage II,5.2,Severe,No,No,Immunotherapy,64,10,43104.51
+LC_404,82,Other,Current Smoker,High,No,Stage IV,7.19,None,Yes,Yes,Immunotherapy,23.67,6,56923.6
+LC_405,40,Other,Never,High,No,Stage I,7.11,Severe,Yes,Yes,Chemotherapy,18.17,14,24514.45
+LC_406,62,Male,Current Smoker,High,No,Stage III,2.04,Severe,No,No,Chemotherapy,30.76,1,75340.46
+LC_407,76,Female,Current Smoker,High,Yes,Stage IV,9.17,None,No,Yes,Surgery,76.07,1,9704.55
+LC_408,88,Male,Current Smoker,Low,Yes,Stage IV,1.44,Mild,No,Yes,Chemotherapy,67.85,19,93195.15
+LC_409,78,Male,Current Smoker,High,Yes,Stage II,6.11,Mild,Yes,No,Surgery,65.34,20,29093.63
+LC_410,56,Female,Former Smoker,Moderate,Yes,Stage III,6.2,None,No,No,Chemotherapy,24.72,22,47827.61
+LC_411,71,Other,Never,Low,Yes,Stage II,7.21,Severe,No,Yes,Radiation,78.26,6,5603.27
+LC_412,50,Other,Current Smoker,High,No,Stage I,2.29,Mild,Yes,Yes,Immunotherapy,19.41,12,47809.49
+LC_413,78,Other,Former Smoker,Low,Yes,Stage II,9.02,None,No,Yes,Radiation,57.24,17,87581.39
+LC_414,32,Male,Never,High,No,Stage I,4.93,Mild,Yes,No,Chemotherapy,70.5,8,93887.67
+LC_415,58,Female,Current Smoker,Low,No,Stage IV,0.83,Severe,Yes,No,Immunotherapy,21.62,21,49447.86
+LC_416,38,Other,Current Smoker,Moderate,Yes,Stage II,7.65,Mild,Yes,No,Chemotherapy,71.17,20,59719.42
+LC_417,47,Female,Never,Low,Yes,Stage IV,5.81,Mild,No,Yes,Surgery,82.93,12,36248.4
+LC_418,72,Female,Current Smoker,High,No,Stage II,0.51,None,No,Yes,Chemotherapy,83.17,14,11350.5
+LC_419,87,Male,Never,High,No,Stage I,1.79,None,Yes,Yes,Immunotherapy,75.56,7,82607.1
+LC_420,62,Male,Current Smoker,Low,No,Stage IV,0.9,None,No,No,Immunotherapy,35.35,8,85225.93
+LC_421,60,Other,Never,Moderate,Yes,Stage II,1.82,Severe,Yes,Yes,Surgery,71.37,9,89309.72
+LC_422,88,Male,Former Smoker,High,No,Stage I,8.39,None,No,No,Immunotherapy,78.38,8,81361.68
+LC_423,81,Other,Never,Low,Yes,Stage I,8.17,Mild,Yes,Yes,Chemotherapy,14.96,6,95883.79
+LC_424,35,Female,Current Smoker,Moderate,No,Stage I,6,Severe,No,No,Chemotherapy,80.39,26,48911.4
+LC_425,78,Female,Former Smoker,High,No,Stage II,1.32,None,No,Yes,Surgery,74.86,21,38074.68
+LC_426,58,Female,Current Smoker,High,Yes,Stage IV,1.01,Severe,Yes,No,Surgery,16.61,29,49391.35
+LC_427,30,Male,Never,Low,Yes,Stage I,2.54,None,No,Yes,Radiation,12.59,14,15858.08
+LC_428,39,Female,Never,High,Yes,Stage III,1.97,None,Yes,No,Immunotherapy,11.26,6,81383.54
+LC_429,69,Female,Never,Moderate,No,Stage I,9.75,Mild,No,No,Surgery,37.77,4,11805.26
+LC_430,39,Other,Never,Moderate,No,Stage III,1.47,Severe,No,No,Radiation,78.48,19,10526.62
+LC_431,30,Female,Never,Low,No,Stage IV,6.54,Severe,No,No,Chemotherapy,38.74,19,28923.13
+LC_432,63,Other,Never,Moderate,Yes,Stage III,6.05,Severe,Yes,Yes,Chemotherapy,29.45,21,19468.42
+LC_433,36,Other,Former Smoker,Low,Yes,Stage I,9.72,Severe,Yes,No,Surgery,69.44,24,91000.06
+LC_434,34,Female,Never,Moderate,Yes,Stage III,0.87,None,Yes,No,Surgery,74.7,9,25886.03
+LC_435,81,Other,Current Smoker,High,Yes,Stage I,9.11,Severe,No,No,Surgery,25.81,8,34546.78
+LC_436,81,Female,Never,Moderate,No,Stage III,1.11,None,No,Yes,Surgery,17.54,20,44339.96
+LC_437,62,Other,Former Smoker,High,No,Stage I,5.82,None,Yes,No,Immunotherapy,26.85,15,50623.97
+LC_438,48,Female,Current Smoker,Low,No,Stage II,6.98,Mild,No,No,Radiation,19.65,20,76742.08
+LC_439,46,Female,Current Smoker,Low,Yes,Stage III,3.68,Mild,Yes,Yes,Immunotherapy,46.6,4,72504.94
+LC_440,74,Male,Current Smoker,Low,No,Stage II,1.58,Mild,Yes,Yes,Surgery,81.28,5,29286.01
+LC_441,63,Female,Never,Moderate,Yes,Stage II,4.11,Severe,No,Yes,Radiation,75.35,15,31580.95
+LC_442,85,Other,Former Smoker,High,No,Stage IV,7.95,Severe,No,No,Immunotherapy,44.63,14,67853.19
+LC_443,58,Female,Never,Moderate,Yes,Stage IV,1.95,None,No,Yes,Immunotherapy,32.86,7,13622.97
+LC_444,38,Other,Former Smoker,Moderate,Yes,Stage III,6.94,Mild,No,Yes,Surgery,39.47,29,46986.39
+LC_445,50,Female,Never,High,No,Stage I,5.11,Severe,Yes,No,Chemotherapy,32.16,22,67587.09
+LC_446,78,Male,Current Smoker,High,Yes,Stage IV,4.12,None,Yes,No,Surgery,79.31,26,80382.5
+LC_447,33,Other,Current Smoker,Low,Yes,Stage III,7.9,Mild,No,Yes,Chemotherapy,72.45,3,52143.88
+LC_448,48,Female,Current Smoker,Low,Yes,Stage I,7.06,Severe,Yes,No,Immunotherapy,12.16,2,90984.35
+LC_449,42,Male,Current Smoker,High,Yes,Stage I,5.63,Severe,No,No,Radiation,50.53,14,61607.68
+LC_450,40,Female,Former Smoker,High,No,Stage IV,7.21,None,No,No,Radiation,10.52,22,86674.17
+LC_451,87,Female,Current Smoker,High,Yes,Stage IV,1.76,None,Yes,No,Surgery,88.07,16,46480.44
+LC_452,69,Male,Never,High,Yes,Stage II,2.13,Mild,Yes,Yes,Chemotherapy,45.57,19,32160.38
+LC_453,63,Female,Current Smoker,Low,No,Stage II,7.21,Severe,Yes,No,Surgery,82.49,27,92767.08
+LC_454,30,Other,Never,Low,Yes,Stage III,9.33,None,No,No,Chemotherapy,25.1,15,83229.99
+LC_455,81,Male,Current Smoker,High,No,Stage III,1.91,Severe,No,Yes,Surgery,29.45,7,16249.05
+LC_456,65,Other,Former Smoker,Low,No,Stage III,1,None,Yes,No,Chemotherapy,70.44,25,74037.13
+LC_457,43,Other,Never,High,No,Stage IV,6.21,Severe,No,Yes,Immunotherapy,23.86,27,14407.77
+LC_458,58,Male,Former Smoker,Moderate,Yes,Stage IV,8.07,None,Yes,No,Chemotherapy,6.6,19,75990.19
+LC_459,39,Male,Former Smoker,Low,Yes,Stage IV,0.73,Severe,Yes,Yes,Immunotherapy,25.77,8,95844.12
+LC_460,51,Male,Former Smoker,Moderate,No,Stage III,3.87,None,Yes,No,Immunotherapy,29,3,77925.23
+LC_461,34,Other,Never,Moderate,Yes,Stage IV,8.5,None,No,Yes,Surgery,21.77,19,84201.2
+LC_462,48,Male,Current Smoker,Low,Yes,Stage I,1.25,Severe,Yes,No,Immunotherapy,5.6,19,8916.24
+LC_463,53,Male,Never,Low,No,Stage I,9.84,None,Yes,No,Radiation,38.72,18,61943.1
+LC_464,41,Female,Never,Moderate,Yes,Stage IV,7.28,None,No,Yes,Surgery,28.69,21,65525.5
+LC_465,89,Male,Current Smoker,High,Yes,Stage I,3.86,Mild,Yes,Yes,Surgery,23.79,6,39647.44
+LC_466,50,Female,Never,Moderate,Yes,Stage IV,1.51,None,No,Yes,Surgery,36.1,1,45704.84
+LC_467,40,Other,Current Smoker,Low,Yes,Stage I,4.43,Mild,No,Yes,Radiation,62.83,28,75319.39
+LC_468,75,Other,Current Smoker,High,Yes,Stage III,1.67,Mild,No,No,Radiation,78.81,16,64161.76
+LC_469,45,Female,Never,Moderate,No,Stage IV,2.53,None,No,No,Chemotherapy,16.82,23,69936.89
+LC_470,38,Female,Current Smoker,High,Yes,Stage I,2.95,None,No,No,Immunotherapy,61.22,7,72338.3
+LC_471,62,Female,Current Smoker,High,Yes,Stage I,0.88,None,No,Yes,Immunotherapy,22.04,27,36781.71
+LC_472,73,Female,Never,Moderate,Yes,Stage IV,3.67,None,Yes,No,Radiation,69.84,22,30336.25
+LC_473,51,Other,Current Smoker,Moderate,Yes,Stage III,7.18,None,No,No,Surgery,76.56,18,16568.79
+LC_474,33,Female,Former Smoker,High,No,Stage IV,4.34,None,Yes,Yes,Chemotherapy,12.69,6,68802.08
+LC_475,64,Other,Former Smoker,Low,Yes,Stage II,1.85,Severe,No,No,Chemotherapy,30.49,16,38498.3
+LC_476,32,Other,Former Smoker,Moderate,No,Stage II,5.14,Severe,No,No,Chemotherapy,84.56,25,80076.41
+LC_477,31,Other,Never,Moderate,No,Stage II,6.49,Severe,No,Yes,Surgery,46.81,7,18345.04
+LC_478,81,Other,Current Smoker,Low,No,Stage II,2.17,Severe,No,No,Radiation,11.02,8,89914.64
+LC_479,43,Male,Current Smoker,High,No,Stage II,3.88,Mild,No,No,Immunotherapy,50.74,17,37109.93
+LC_480,76,Other,Never,Low,No,Stage IV,9.84,Severe,Yes,No,Immunotherapy,13.38,17,47065.73
+LC_481,45,Male,Current Smoker,Low,Yes,Stage IV,9.49,Severe,No,Yes,Radiation,67.73,6,9384.95
+LC_482,34,Female,Current Smoker,Low,Yes,Stage II,7.73,None,No,No,Immunotherapy,22.32,22,55791.18
+LC_483,41,Female,Former Smoker,Low,Yes,Stage III,4.6,Severe,Yes,Yes,Radiation,36.91,19,25783.59
+LC_484,69,Other,Current Smoker,Low,No,Stage II,5.54,Mild,No,Yes,Surgery,75.63,23,52861.7
+LC_485,46,Other,Never,Low,Yes,Stage IV,6.19,Mild,Yes,Yes,Immunotherapy,45.5,10,40328.16
+LC_486,83,Other,Former Smoker,Low,No,Stage IV,1.59,None,No,No,Chemotherapy,37.55,1,81581.16
+LC_487,40,Female,Current Smoker,High,No,Stage II,2.33,Mild,Yes,Yes,Radiation,45.79,27,88298.71
+LC_488,44,Female,Former Smoker,Moderate,Yes,Stage I,6.14,Severe,No,No,Radiation,31.44,6,60902.58
+LC_489,30,Other,Former Smoker,Moderate,No,Stage I,4.35,None,No,Yes,Chemotherapy,30.51,19,92306.74
+LC_490,58,Male,Current Smoker,Low,No,Stage I,6.47,Severe,No,Yes,Immunotherapy,82.79,21,50895.98
+LC_491,54,Male,Current Smoker,Moderate,No,Stage I,5.19,Mild,Yes,No,Chemotherapy,31.14,18,50316.61
+LC_492,72,Other,Former Smoker,Low,No,Stage II,9.54,Mild,No,No,Radiation,43.26,8,25137.01
+LC_493,65,Male,Former Smoker,Low,Yes,Stage IV,8.23,Mild,Yes,No,Surgery,71.39,9,36119.08
+LC_494,51,Male,Current Smoker,High,No,Stage I,7.13,Mild,No,Yes,Surgery,9.1,20,43833.11
+LC_495,52,Male,Former Smoker,Low,No,Stage IV,3.67,Severe,No,Yes,Surgery,19.91,11,77267.14
+LC_496,46,Female,Former Smoker,Moderate,Yes,Stage IV,6.59,None,Yes,No,Surgery,86.2,10,9440.89
+LC_497,56,Other,Current Smoker,High,Yes,Stage II,7.88,None,Yes,Yes,Surgery,28.91,26,88337.8
+LC_498,40,Male,Former Smoker,Moderate,Yes,Stage II,2.5,Severe,Yes,No,Immunotherapy,24.73,11,64495.58
+LC_499,39,Male,Never,Moderate,No,Stage II,9.46,Severe,No,No,Chemotherapy,19.69,16,54565.4
+LC_500,83,Female,Current Smoker,Moderate,Yes,Stage III,8.94,Severe,No,Yes,Chemotherapy,69.51,22,94032.73
+LC_501,56,Male,Former Smoker,High,No,Stage I,3.8,Severe,Yes,No,Immunotherapy,45.56,26,56794.78
+LC_502,34,Other,Never,High,No,Stage II,5.46,Severe,No,No,Radiation,43.82,25,35088.34
+LC_503,70,Male,Never,Low,No,Stage IV,0.74,None,Yes,No,Chemotherapy,55.62,21,92706.78
+LC_504,61,Male,Never,Moderate,Yes,Stage IV,3.42,None,No,No,Immunotherapy,53.14,8,92916.53
+LC_505,68,Other,Current Smoker,High,No,Stage II,8.24,Severe,Yes,Yes,Immunotherapy,89.11,8,53052.1
+LC_506,39,Female,Never,Moderate,No,Stage II,5.8,None,Yes,Yes,Immunotherapy,30.54,24,40825.35
+LC_507,67,Other,Current Smoker,High,No,Stage IV,5.87,Mild,No,Yes,Immunotherapy,15.28,24,17790.79
+LC_508,42,Female,Current Smoker,Low,Yes,Stage I,5.48,None,Yes,No,Immunotherapy,42.92,7,11625.95
+LC_509,70,Other,Never,High,No,Stage I,9.24,Mild,Yes,No,Surgery,45.76,8,65699.77
+LC_510,82,Other,Never,Moderate,Yes,Stage III,9.18,None,No,Yes,Immunotherapy,41,21,87815.64
+LC_511,85,Female,Former Smoker,High,Yes,Stage I,6.35,Severe,Yes,Yes,Chemotherapy,49.87,29,84242.5
+LC_512,78,Other,Current Smoker,Moderate,No,Stage II,5.08,Severe,No,No,Chemotherapy,78.39,10,50693.55
+LC_513,67,Male,Former Smoker,Moderate,No,Stage I,5.55,Severe,Yes,Yes,Surgery,83.73,8,55326.71
+LC_514,46,Male,Current Smoker,High,No,Stage III,6.7,None,No,No,Chemotherapy,85.26,22,65914.88
+LC_515,70,Male,Never,High,Yes,Stage IV,1.86,None,No,Yes,Radiation,47.73,10,58065.09
+LC_516,70,Male,Former Smoker,High,Yes,Stage III,2.38,Mild,No,Yes,Surgery,65.18,23,53609.79
+LC_517,50,Other,Never,High,No,Stage III,9.06,None,No,Yes,Surgery,75.26,22,22281.01
+LC_518,46,Female,Former Smoker,High,No,Stage IV,5.24,Severe,Yes,Yes,Surgery,27.59,21,49682.68
+LC_519,30,Male,Never,High,No,Stage IV,3.64,Mild,Yes,No,Surgery,14.24,2,11700.54
+LC_520,55,Female,Current Smoker,Low,No,Stage III,2.59,Severe,Yes,Yes,Chemotherapy,75.5,19,53428.76
+LC_521,40,Female,Never,High,Yes,Stage II,9.78,None,Yes,No,Chemotherapy,64.64,3,79231.81
+LC_522,50,Female,Former Smoker,High,No,Stage I,3,None,Yes,No,Immunotherapy,19.81,12,57923.92
+LC_523,41,Other,Never,Low,No,Stage III,0.8,Severe,Yes,Yes,Chemotherapy,6.52,24,45753.64
+LC_524,43,Male,Former Smoker,Low,No,Stage IV,4.7,Severe,No,No,Surgery,62.91,3,77790.48
+LC_525,67,Other,Current Smoker,Moderate,Yes,Stage II,3.24,None,No,Yes,Chemotherapy,83.47,22,16375.05
+LC_526,80,Female,Never,Low,No,Stage III,1.92,Severe,No,No,Surgery,13.61,10,62871.8
+LC_527,67,Male,Current Smoker,Moderate,No,Stage I,9.3,Severe,Yes,No,Immunotherapy,11.55,27,98876.42
+LC_528,80,Male,Former Smoker,Moderate,No,Stage I,8.58,Mild,Yes,No,Radiation,32.36,19,28111.15
+LC_529,36,Female,Never,High,No,Stage III,1.4,Mild,Yes,No,Radiation,75.48,15,43687.64
+LC_530,53,Other,Current Smoker,Moderate,Yes,Stage III,4.5,None,Yes,No,Radiation,61.99,20,74550.73
+LC_531,35,Male,Former Smoker,High,No,Stage I,9.24,None,No,Yes,Chemotherapy,58.67,29,43059.67
+LC_532,33,Female,Current Smoker,Moderate,Yes,Stage IV,6.5,Mild,Yes,No,Chemotherapy,20.44,27,6537.56
+LC_533,70,Male,Never,High,No,Stage III,5.99,Mild,No,Yes,Radiation,54.47,17,6109.93
+LC_534,31,Male,Never,High,No,Stage II,8.2,Mild,Yes,No,Chemotherapy,65.54,15,69245.46
+LC_535,37,Other,Current Smoker,Moderate,Yes,Stage III,4.58,None,Yes,Yes,Radiation,52.73,3,96933.84
+LC_536,41,Male,Never,Low,Yes,Stage II,3.26,Mild,No,Yes,Immunotherapy,67.28,5,44548.76
+LC_537,70,Female,Former Smoker,Low,No,Stage I,5.69,Mild,Yes,No,Radiation,69.71,2,82531.53
+LC_538,51,Other,Former Smoker,Moderate,No,Stage I,6.83,Mild,Yes,Yes,Immunotherapy,69.49,23,75531.28
+LC_539,55,Male,Former Smoker,High,Yes,Stage IV,7.13,None,Yes,No,Radiation,61.78,9,97211.75
+LC_540,69,Male,Never,High,Yes,Stage IV,2.36,None,No,Yes,Surgery,25.54,27,86725.86
+LC_541,70,Male,Current Smoker,Low,Yes,Stage III,6.91,Severe,Yes,Yes,Chemotherapy,54.51,11,67200.18
+LC_542,71,Male,Current Smoker,Low,Yes,Stage IV,0.83,Mild,No,No,Radiation,32.75,5,86428.61
+LC_543,68,Female,Former Smoker,Low,No,Stage III,7.34,Mild,No,Yes,Immunotherapy,48.22,21,33636.66
+LC_544,46,Male,Current Smoker,Moderate,No,Stage I,2.58,Mild,No,Yes,Radiation,68.73,6,82403.39
+LC_545,46,Female,Former Smoker,High,No,Stage IV,2.35,None,Yes,No,Chemotherapy,65.17,10,38552.92
+LC_546,61,Other,Current Smoker,Low,Yes,Stage I,7.49,Severe,Yes,No,Chemotherapy,89.76,3,43378.21
+LC_547,35,Male,Never,Low,No,Stage I,4.55,None,No,Yes,Radiation,51.86,28,87319.68
+LC_548,40,Male,Former Smoker,Low,Yes,Stage III,6.62,None,No,No,Radiation,42.44,23,19914.11
+LC_549,60,Male,Former Smoker,Moderate,No,Stage IV,0.53,Severe,No,Yes,Radiation,17.54,5,67743.81
+LC_550,87,Male,Current Smoker,Moderate,Yes,Stage II,7.58,None,No,Yes,Surgery,50.17,15,41572.04
+LC_551,77,Female,Never,Low,Yes,Stage III,9.91,Mild,No,Yes,Chemotherapy,21.89,18,61196.53
+LC_552,72,Other,Former Smoker,Low,No,Stage III,2.11,None,Yes,Yes,Immunotherapy,80.63,10,45229.44
+LC_553,85,Other,Former Smoker,Moderate,Yes,Stage I,6.93,None,No,Yes,Radiation,12.19,1,54773.05
+LC_554,43,Male,Never,Low,Yes,Stage I,5.19,None,Yes,Yes,Immunotherapy,13.3,19,33330.75
+LC_555,84,Other,Current Smoker,Moderate,Yes,Stage III,6.77,Severe,Yes,No,Surgery,41.52,4,16430.76
+LC_556,51,Male,Former Smoker,High,No,Stage I,7.67,Mild,No,No,Chemotherapy,34.24,25,52521.61
+LC_557,87,Female,Never,Low,Yes,Stage II,4.33,Severe,Yes,Yes,Radiation,68.01,8,61978.91
+LC_558,38,Female,Never,Moderate,No,Stage II,5.29,Mild,Yes,Yes,Chemotherapy,82.89,21,98312.45
+LC_559,62,Female,Current Smoker,High,Yes,Stage IV,4.41,Severe,No,No,Surgery,26.93,1,63376.58
+LC_560,50,Male,Never,Moderate,No,Stage IV,4.27,None,No,Yes,Radiation,18.31,28,81632.9
+LC_561,49,Other,Never,Low,Yes,Stage III,4.09,None,Yes,Yes,Surgery,31.79,5,38717.39
+LC_562,50,Male,Former Smoker,Low,Yes,Stage I,1.44,None,Yes,No,Immunotherapy,47.63,23,65965.94
+LC_563,68,Male,Former Smoker,High,Yes,Stage III,6.47,Mild,Yes,No,Chemotherapy,80.32,20,62470.02
+LC_564,58,Female,Former Smoker,Low,No,Stage II,1.81,Severe,No,No,Immunotherapy,89.23,7,79291.59
+LC_565,85,Other,Never,High,No,Stage II,2.17,Severe,No,Yes,Radiation,83.77,13,62332.14
+LC_566,59,Female,Never,Low,No,Stage III,2,Severe,Yes,Yes,Radiation,22.51,20,41493.68
+LC_567,46,Male,Former Smoker,Low,No,Stage III,1.88,Severe,Yes,Yes,Surgery,24.32,13,56944.45
+LC_568,77,Female,Current Smoker,Low,Yes,Stage IV,6.33,None,Yes,Yes,Radiation,15.33,28,18004.59
+LC_569,58,Other,Former Smoker,High,Yes,Stage III,7.1,None,No,Yes,Immunotherapy,53.27,19,49631.58
+LC_570,47,Other,Current Smoker,Low,No,Stage III,1.5,None,Yes,Yes,Surgery,15,2,31244.67
+LC_571,83,Female,Current Smoker,Low,No,Stage III,4.62,None,Yes,No,Radiation,45.4,1,31749.32
+LC_572,62,Female,Former Smoker,Moderate,No,Stage III,7.98,Severe,No,Yes,Chemotherapy,26.85,23,25716.44
+LC_573,66,Female,Current Smoker,Moderate,Yes,Stage I,6.34,None,Yes,No,Radiation,29.62,1,63737.13
+LC_574,76,Female,Never,High,Yes,Stage III,7.08,Severe,Yes,No,Chemotherapy,30.42,26,60755.78
+LC_575,78,Male,Former Smoker,Low,Yes,Stage IV,2.28,Severe,No,Yes,Radiation,19.8,2,82969.58
+LC_576,66,Other,Former Smoker,High,No,Stage II,1.44,Severe,No,Yes,Chemotherapy,8.31,22,29388.73
+LC_577,47,Male,Former Smoker,Moderate,Yes,Stage II,9.7,Severe,Yes,No,Surgery,84.52,26,22339.96
+LC_578,56,Male,Current Smoker,Low,No,Stage II,6.14,Mild,Yes,No,Chemotherapy,21.59,29,65838.84
+LC_579,65,Female,Current Smoker,High,No,Stage IV,2.38,Mild,Yes,Yes,Immunotherapy,47.81,2,27565.84
+LC_580,68,Male,Former Smoker,Low,No,Stage I,1.05,None,Yes,No,Immunotherapy,80.84,19,25208.17
+LC_581,68,Female,Former Smoker,Low,Yes,Stage III,6.35,Severe,No,No,Chemotherapy,15.16,15,54556.96
+LC_582,64,Female,Current Smoker,High,No,Stage I,1.67,Severe,No,Yes,Immunotherapy,54.06,2,72900.11
+LC_583,53,Female,Current Smoker,High,Yes,Stage IV,8.55,Severe,No,No,Chemotherapy,62.46,20,93066.95
+LC_584,54,Female,Current Smoker,High,Yes,Stage II,9.09,None,Yes,No,Surgery,61.01,26,48362.77
+LC_585,32,Other,Former Smoker,Moderate,No,Stage I,6.75,Severe,No,Yes,Radiation,48.57,17,40498.41
+LC_586,89,Male,Never,Low,Yes,Stage III,4.56,None,Yes,No,Chemotherapy,38.72,4,29946.32
+LC_587,64,Other,Never,Moderate,No,Stage III,1.7,Mild,Yes,Yes,Chemotherapy,14.35,14,88572.11
+LC_588,38,Female,Current Smoker,High,Yes,Stage II,7.61,Severe,No,No,Immunotherapy,79.97,2,92588.13
+LC_589,79,Other,Never,Low,No,Stage IV,9.73,Mild,No,No,Surgery,17.81,28,16464
+LC_590,67,Male,Never,Moderate,Yes,Stage III,5.42,Mild,No,Yes,Immunotherapy,59.09,15,67132.45
+LC_591,79,Male,Current Smoker,High,Yes,Stage II,9.07,Mild,Yes,Yes,Immunotherapy,83.89,8,8259.71
+LC_592,50,Female,Current Smoker,Moderate,Yes,Stage I,8.51,None,Yes,No,Surgery,42.28,22,86214.99
+LC_593,36,Female,Never,High,Yes,Stage IV,5.65,None,Yes,No,Immunotherapy,59.77,5,72214.63
+LC_594,86,Male,Former Smoker,Moderate,No,Stage III,4.56,None,No,Yes,Radiation,48.37,29,77680.57
+LC_595,84,Male,Never,Low,No,Stage III,1.03,None,Yes,Yes,Immunotherapy,27.16,22,71205.74
+LC_596,55,Male,Former Smoker,Low,No,Stage I,5.09,None,No,Yes,Surgery,76.86,19,39121.36
+LC_597,55,Other,Never,High,Yes,Stage I,7.18,None,No,No,Chemotherapy,40.99,5,55296.59
+LC_598,65,Other,Former Smoker,Moderate,No,Stage III,8.93,Mild,No,Yes,Radiation,80.06,7,64917.38
+LC_599,32,Male,Current Smoker,High,No,Stage IV,4.54,Mild,No,No,Radiation,67.31,14,24772.73
+LC_600,58,Other,Current Smoker,High,Yes,Stage II,5.22,None,No,No,Immunotherapy,36.34,3,82125.66
+LC_601,88,Male,Never,Moderate,No,Stage IV,1.53,Severe,Yes,Yes,Surgery,37.35,12,62305.88
+LC_602,72,Other,Former Smoker,Moderate,No,Stage III,2.66,Mild,Yes,Yes,Immunotherapy,70.13,14,50122.02
+LC_603,39,Female,Former Smoker,Moderate,No,Stage II,0.51,None,Yes,No,Immunotherapy,49.24,3,20179.13
+LC_604,55,Male,Current Smoker,High,No,Stage I,5.42,Mild,No,No,Immunotherapy,38.77,6,17737.2
+LC_605,77,Other,Current Smoker,High,No,Stage III,8.2,Severe,No,Yes,Radiation,19.05,18,89786.16
+LC_606,51,Other,Never,High,No,Stage I,9.69,None,Yes,No,Chemotherapy,19.18,2,88514
+LC_607,76,Other,Never,High,No,Stage II,1.41,Mild,No,Yes,Radiation,62.53,19,49388.32
+LC_608,51,Female,Current Smoker,Low,Yes,Stage II,4.33,None,Yes,Yes,Radiation,53.2,26,62594.19
+LC_609,48,Other,Current Smoker,Low,Yes,Stage I,6.79,None,No,No,Surgery,89.12,2,99104.79
+LC_610,37,Other,Former Smoker,Moderate,Yes,Stage IV,3.18,Mild,Yes,No,Chemotherapy,29.99,12,13191.68
+LC_611,61,Other,Current Smoker,High,Yes,Stage III,8.44,Severe,No,No,Immunotherapy,50.4,16,57047.77
+LC_612,32,Other,Former Smoker,Moderate,No,Stage III,6.6,None,Yes,No,Radiation,43.13,15,47244.7
+LC_613,42,Female,Current Smoker,Moderate,Yes,Stage III,3.81,Severe,No,Yes,Chemotherapy,72.5,21,69978.7
+LC_614,38,Male,Never,Low,No,Stage III,0.8,None,No,No,Chemotherapy,55.62,15,77998.54
+LC_615,57,Female,Former Smoker,Moderate,No,Stage I,9.75,Mild,No,Yes,Radiation,15.47,25,60737.65
+LC_616,57,Other,Current Smoker,Moderate,No,Stage IV,4.63,Mild,Yes,Yes,Chemotherapy,28.15,26,15530.73
+LC_617,42,Other,Current Smoker,High,Yes,Stage II,5.63,None,No,Yes,Chemotherapy,36.53,14,84731.85
+LC_618,88,Male,Former Smoker,High,Yes,Stage II,2.5,Severe,Yes,Yes,Immunotherapy,5.2,28,46445.58
+LC_619,63,Female,Current Smoker,Moderate,No,Stage I,9.84,Severe,Yes,Yes,Radiation,80.84,17,88081.08
+LC_620,83,Other,Never,Low,Yes,Stage III,4.49,None,No,No,Chemotherapy,52.85,22,26361.62
+LC_621,87,Male,Never,Low,Yes,Stage I,0.88,Mild,No,No,Surgery,38.53,4,37989.87
+LC_622,61,Other,Never,Moderate,Yes,Stage II,9.72,None,No,No,Immunotherapy,58.75,9,33122.41
+LC_623,86,Male,Current Smoker,Low,No,Stage II,7.64,Mild,No,No,Surgery,88.33,6,41064.8
+LC_624,68,Female,Never,Low,Yes,Stage IV,4.87,None,Yes,Yes,Immunotherapy,9.51,13,54434.87
+LC_625,46,Male,Current Smoker,Low,Yes,Stage II,5.91,Mild,No,Yes,Chemotherapy,27.09,5,58251.74
+LC_626,89,Male,Former Smoker,Moderate,No,Stage III,6.59,None,Yes,No,Immunotherapy,67.87,29,48349.65
+LC_627,45,Female,Current Smoker,Moderate,No,Stage III,1.82,Severe,No,No,Surgery,61.54,5,59038.11
+LC_628,86,Other,Former Smoker,Low,Yes,Stage III,5.82,Mild,Yes,Yes,Surgery,15.91,29,77557.18
+LC_629,67,Female,Former Smoker,Low,Yes,Stage I,1.35,None,No,Yes,Chemotherapy,54.59,24,74555.05
+LC_630,85,Other,Current Smoker,Low,Yes,Stage I,2.62,Severe,No,No,Surgery,83.5,29,28258.55
+LC_631,86,Male,Current Smoker,High,Yes,Stage I,4.45,None,Yes,Yes,Surgery,16.05,15,15022.55
+LC_632,46,Other,Current Smoker,Low,Yes,Stage I,1.68,Severe,Yes,No,Chemotherapy,37.4,27,98674.3
+LC_633,48,Other,Former Smoker,Low,No,Stage I,5.26,None,Yes,No,Chemotherapy,83.45,18,37028.52
+LC_634,52,Other,Former Smoker,Low,No,Stage I,3.54,None,Yes,Yes,Chemotherapy,38.56,27,49554.14
+LC_635,47,Male,Current Smoker,Low,No,Stage II,8.05,Severe,Yes,Yes,Chemotherapy,47.66,26,5204.17
+LC_636,31,Other,Current Smoker,Low,No,Stage II,5.27,None,No,Yes,Surgery,57.56,9,88555.37
+LC_637,59,Male,Current Smoker,Low,No,Stage II,1.07,Severe,No,Yes,Radiation,83.33,22,87525.92
+LC_638,83,Other,Current Smoker,High,Yes,Stage II,4,None,Yes,No,Immunotherapy,67.49,4,94431.79
+LC_639,65,Female,Never,High,Yes,Stage I,8.7,Mild,No,Yes,Immunotherapy,49.51,28,26463.05
+LC_640,63,Female,Former Smoker,Low,Yes,Stage IV,5.07,Mild,Yes,Yes,Radiation,73.15,6,97814.69
+LC_641,38,Male,Current Smoker,High,Yes,Stage III,7.9,Severe,No,No,Chemotherapy,5.89,13,91592.73
+LC_642,62,Female,Former Smoker,Moderate,Yes,Stage I,5.13,None,No,Yes,Surgery,39.09,27,76279.95
+LC_643,82,Male,Current Smoker,Moderate,No,Stage IV,0.7,None,No,Yes,Radiation,55.54,22,5844.53
+LC_644,85,Other,Current Smoker,Moderate,No,Stage III,7.1,None,Yes,Yes,Surgery,19.94,28,43671.09
+LC_645,41,Male,Former Smoker,Low,No,Stage IV,8.35,None,Yes,No,Immunotherapy,29.21,2,44629
+LC_646,70,Male,Former Smoker,High,No,Stage III,3.21,Mild,No,No,Chemotherapy,59.14,26,31386.13
+LC_647,40,Male,Never,Moderate,No,Stage II,8.29,Severe,Yes,Yes,Surgery,76.75,8,70767.61
+LC_648,40,Female,Never,Low,Yes,Stage II,2.82,None,No,Yes,Chemotherapy,53.23,22,25126.78
+LC_649,63,Female,Current Smoker,Low,Yes,Stage II,9.01,Mild,Yes,No,Chemotherapy,52.24,22,24503.46
+LC_650,44,Female,Current Smoker,Low,Yes,Stage IV,8.25,None,No,Yes,Chemotherapy,15.53,26,95368.05
+LC_651,77,Other,Current Smoker,Low,Yes,Stage III,7.33,None,No,No,Radiation,6.42,8,59222.71
+LC_652,38,Other,Never,Low,No,Stage I,6.96,Severe,Yes,Yes,Immunotherapy,50.27,17,11390.04
+LC_653,46,Other,Current Smoker,High,No,Stage I,9.21,Mild,Yes,Yes,Surgery,7.53,1,77339.85
+LC_654,31,Male,Current Smoker,Moderate,No,Stage I,8.35,None,No,Yes,Surgery,19.67,6,69805.82
+LC_655,68,Other,Never,Low,No,Stage I,9.1,None,Yes,Yes,Immunotherapy,36.32,19,25984.22
+LC_656,33,Female,Never,Moderate,Yes,Stage IV,1.47,Severe,No,Yes,Immunotherapy,13.72,26,82513.45
+LC_657,50,Male,Current Smoker,Low,Yes,Stage IV,7.89,None,No,No,Immunotherapy,71.41,9,7034.63
+LC_658,87,Male,Current Smoker,Moderate,No,Stage I,4.16,None,Yes,Yes,Surgery,71.38,5,40233.01
+LC_659,42,Other,Former Smoker,High,No,Stage III,6.67,Severe,Yes,No,Radiation,5.86,20,9377.12
+LC_660,48,Female,Never,Moderate,Yes,Stage I,7.57,None,No,Yes,Surgery,70.36,12,95577.9
+LC_661,71,Other,Former Smoker,High,No,Stage I,7.77,None,Yes,No,Immunotherapy,80.18,26,99801.78
+LC_662,33,Other,Never,Moderate,Yes,Stage II,5.18,Mild,Yes,No,Surgery,6.58,6,63937.89
+LC_663,67,Female,Former Smoker,Moderate,Yes,Stage III,3.63,None,No,No,Surgery,35.96,17,51701.94
+LC_664,39,Male,Current Smoker,Moderate,No,Stage IV,3.16,Mild,No,Yes,Surgery,39.19,22,19007.91
+LC_665,88,Female,Former Smoker,Low,No,Stage I,4.58,None,No,Yes,Surgery,21.82,10,9735.55
+LC_666,76,Other,Current Smoker,Low,No,Stage II,2.78,Mild,No,No,Surgery,37.85,3,32843.08
+LC_667,37,Male,Never,Low,Yes,Stage IV,2.98,None,No,Yes,Chemotherapy,55.12,25,74842.9
+LC_668,76,Female,Current Smoker,High,No,Stage III,4.63,None,Yes,No,Radiation,28.25,5,39701.72
+LC_669,67,Male,Former Smoker,Moderate,No,Stage II,2.62,Severe,No,Yes,Radiation,52.29,10,86826.1
+LC_670,65,Female,Current Smoker,Moderate,No,Stage I,4.95,Mild,Yes,Yes,Surgery,80.82,23,68960.26
+LC_671,75,Male,Former Smoker,High,No,Stage I,2.26,Severe,No,Yes,Radiation,64.02,16,40395.42
+LC_672,70,Other,Never,High,No,Stage I,9.15,Mild,No,Yes,Radiation,50.97,24,37981.31
+LC_673,39,Female,Never,High,Yes,Stage III,3.57,None,Yes,No,Immunotherapy,39.66,15,36574.22
+LC_674,65,Female,Never,Moderate,No,Stage II,8.51,None,Yes,Yes,Surgery,12.73,27,21912.94
+LC_675,43,Other,Current Smoker,Low,No,Stage I,1.3,Severe,Yes,No,Surgery,19.38,23,35720.93
+LC_676,58,Female,Never,Moderate,No,Stage III,3.47,None,No,Yes,Chemotherapy,15.5,15,17307.79
+LC_677,64,Other,Current Smoker,Moderate,No,Stage III,3.84,Severe,Yes,No,Chemotherapy,60.13,9,82519.06
+LC_678,54,Other,Former Smoker,Low,No,Stage III,2.18,None,Yes,Yes,Radiation,34.27,10,51685.86
+LC_679,48,Male,Current Smoker,High,Yes,Stage II,2.68,Mild,Yes,No,Chemotherapy,6.35,28,34148.55
+LC_680,62,Other,Former Smoker,Low,No,Stage IV,3.4,None,Yes,Yes,Surgery,79.55,8,30510.07
+LC_681,63,Female,Current Smoker,Moderate,No,Stage III,3.85,None,Yes,No,Surgery,47,27,63933.61
+LC_682,31,Other,Never,Moderate,Yes,Stage I,2.51,None,No,No,Immunotherapy,31.22,11,78598.65
+LC_683,60,Female,Never,High,No,Stage II,8.91,Severe,No,Yes,Immunotherapy,51.77,7,85993.35
+LC_684,43,Female,Current Smoker,High,No,Stage III,9.97,Mild,No,Yes,Immunotherapy,63.84,20,20372.68
+LC_685,64,Female,Never,High,Yes,Stage I,9.8,None,Yes,Yes,Chemotherapy,17.67,17,20049.66
+LC_686,64,Other,Current Smoker,Moderate,No,Stage I,4.38,Mild,No,No,Chemotherapy,66.05,29,98744.94
+LC_687,60,Male,Former Smoker,Moderate,No,Stage II,3.31,Mild,No,No,Immunotherapy,48.45,26,84637.13
+LC_688,64,Male,Current Smoker,Moderate,Yes,Stage IV,7.85,None,No,Yes,Immunotherapy,76.86,26,71800.46
+LC_689,64,Female,Former Smoker,Low,No,Stage III,9.64,None,Yes,Yes,Chemotherapy,60.72,21,82974.28
+LC_690,88,Male,Current Smoker,Low,No,Stage III,4.05,None,No,No,Immunotherapy,36.41,7,47278.65
+LC_691,50,Other,Never,Moderate,Yes,Stage IV,1.83,None,No,Yes,Surgery,76.22,3,78286.31
+LC_692,70,Other,Current Smoker,High,No,Stage IV,9.04,None,No,No,Chemotherapy,62.68,6,28562.75
+LC_693,55,Other,Never,Low,No,Stage II,6.64,Severe,No,No,Chemotherapy,22.64,9,32051
+LC_694,56,Other,Former Smoker,Moderate,Yes,Stage II,8.36,Severe,Yes,No,Surgery,45.63,21,9296.1
+LC_695,33,Female,Current Smoker,Low,Yes,Stage I,0.8,Mild,Yes,Yes,Surgery,57.03,13,37233.26
+LC_696,74,Other,Never,High,Yes,Stage III,2.42,None,Yes,Yes,Chemotherapy,59.45,18,92350.03
+LC_697,85,Male,Former Smoker,High,No,Stage I,4.74,Severe,Yes,Yes,Immunotherapy,28.54,28,74345.9
+LC_698,86,Female,Current Smoker,Moderate,No,Stage I,1.58,None,Yes,Yes,Radiation,65.04,25,74476.03
+LC_699,43,Other,Never,High,Yes,Stage IV,1.98,None,Yes,Yes,Surgery,48.77,17,32633.02
+LC_700,77,Male,Former Smoker,Low,Yes,Stage II,8.79,Mild,Yes,No,Surgery,27.36,3,52655.13
+LC_701,36,Male,Never,High,No,Stage IV,1.73,None,No,No,Surgery,31.57,14,31241.47
+LC_702,49,Female,Never,Low,Yes,Stage II,9.81,None,No,Yes,Surgery,80.98,13,92003.5
+LC_703,66,Male,Current Smoker,Low,No,Stage IV,6.77,None,No,Yes,Chemotherapy,59.04,11,71386.82
+LC_704,45,Female,Former Smoker,Low,Yes,Stage I,5.67,Severe,Yes,Yes,Radiation,26.52,6,12422.77
+LC_705,33,Male,Current Smoker,Low,Yes,Stage IV,4.56,Severe,Yes,No,Chemotherapy,29.87,12,89788.15
+LC_706,65,Female,Former Smoker,High,No,Stage IV,9.22,Mild,No,Yes,Chemotherapy,41.76,25,79923.24
+LC_707,49,Female,Former Smoker,High,No,Stage II,4.53,None,No,Yes,Immunotherapy,6.96,28,37322.37
+LC_708,82,Other,Current Smoker,High,Yes,Stage III,6.66,None,No,Yes,Chemotherapy,78.46,24,17795.85
+LC_709,78,Male,Former Smoker,Moderate,Yes,Stage II,0.52,Severe,Yes,Yes,Immunotherapy,35.78,17,62603.02
+LC_710,36,Male,Current Smoker,Low,No,Stage III,8.61,None,No,Yes,Radiation,33.48,14,76220.35
+LC_711,61,Male,Never,Low,Yes,Stage IV,3.19,None,Yes,Yes,Surgery,54.04,3,56062.77
+LC_712,36,Male,Current Smoker,Moderate,Yes,Stage III,2.66,Severe,No,No,Surgery,36.81,24,19177.64
+LC_713,48,Other,Former Smoker,Low,No,Stage II,4.58,Mild,Yes,Yes,Immunotherapy,87.69,27,10026.84
+LC_714,42,Other,Never,High,No,Stage I,9.26,None,Yes,No,Surgery,70.9,5,78520.85
+LC_715,66,Male,Former Smoker,Low,No,Stage IV,1.14,None,No,Yes,Immunotherapy,54.47,11,80750.73
+LC_716,37,Male,Former Smoker,High,Yes,Stage IV,5.15,None,No,No,Radiation,22.91,10,91455.91
+LC_717,41,Other,Former Smoker,High,No,Stage II,6.47,Mild,No,Yes,Radiation,78.64,3,78897.29
+LC_718,39,Male,Current Smoker,Moderate,No,Stage I,5.84,None,No,Yes,Chemotherapy,87.83,10,89782.75
+LC_719,83,Male,Current Smoker,Low,No,Stage II,0.64,None,No,No,Chemotherapy,49.01,25,99530.4
+LC_720,64,Female,Never,Moderate,Yes,Stage II,7.65,None,No,Yes,Immunotherapy,45.41,4,60668.94
+LC_721,79,Female,Never,Moderate,Yes,Stage IV,8.48,None,No,No,Chemotherapy,79.41,6,81810.93
+LC_722,83,Female,Current Smoker,Moderate,Yes,Stage I,9.58,Severe,No,Yes,Surgery,86.07,14,88662.33
+LC_723,77,Female,Never,Moderate,No,Stage III,3.15,Mild,No,Yes,Radiation,34.43,24,21755.74
+LC_724,72,Male,Current Smoker,High,Yes,Stage IV,7.16,Severe,Yes,No,Immunotherapy,89.18,3,41170.5
+LC_725,69,Male,Current Smoker,Moderate,No,Stage III,2.99,Severe,Yes,No,Radiation,29.52,22,79214.36
+LC_726,50,Male,Former Smoker,Low,No,Stage I,4.6,Severe,Yes,No,Chemotherapy,47.98,29,41256.56
+LC_727,50,Male,Never,Moderate,No,Stage II,8.66,Severe,Yes,No,Chemotherapy,44.96,22,17355.58
+LC_728,58,Other,Current Smoker,Low,Yes,Stage I,7.11,Severe,Yes,No,Radiation,85.64,25,32292.64
+LC_729,86,Other,Current Smoker,High,No,Stage III,1.66,Severe,No,No,Immunotherapy,20.97,13,25479.28
+LC_730,75,Other,Former Smoker,Moderate,Yes,Stage III,2.44,Mild,Yes,No,Chemotherapy,73.71,22,54199.16
+LC_731,51,Female,Former Smoker,Low,Yes,Stage II,1.22,Mild,Yes,Yes,Chemotherapy,80.06,6,64202.34
+LC_732,69,Male,Never,Moderate,No,Stage I,6.4,Mild,No,No,Chemotherapy,13.37,8,60635.42
+LC_733,79,Female,Current Smoker,Low,Yes,Stage II,6.79,Mild,No,No,Immunotherapy,8.76,22,54585.27
+LC_734,41,Female,Never,High,Yes,Stage IV,3.48,Severe,Yes,No,Radiation,41.68,27,31150.64
+LC_735,35,Female,Never,Moderate,No,Stage III,7.71,None,Yes,Yes,Surgery,79.99,14,34451.4
+LC_736,79,Other,Current Smoker,Moderate,No,Stage III,9.52,None,Yes,Yes,Chemotherapy,76.71,22,52582.73
+LC_737,58,Other,Former Smoker,High,No,Stage I,1.03,None,Yes,No,Radiation,53.65,1,13299.1
+LC_738,34,Male,Never,High,Yes,Stage IV,1.33,None,Yes,Yes,Immunotherapy,56.43,4,76980.82
+LC_739,89,Other,Former Smoker,Moderate,Yes,Stage III,6.12,Severe,Yes,No,Surgery,87.51,28,17000.64
+LC_740,55,Other,Current Smoker,High,No,Stage III,9.18,Severe,No,No,Surgery,29.62,7,39591.44
+LC_741,78,Female,Former Smoker,Low,No,Stage II,1.58,Mild,Yes,Yes,Radiation,32.84,16,83049.4
+LC_742,74,Male,Current Smoker,Low,Yes,Stage II,6.72,Severe,Yes,Yes,Chemotherapy,49.7,24,92461.87
+LC_743,69,Female,Never,Moderate,No,Stage II,4.19,Mild,No,No,Radiation,22.93,22,25533.83
+LC_744,73,Female,Never,High,No,Stage III,6.6,None,No,Yes,Immunotherapy,52.83,10,62668.97
+LC_745,36,Male,Current Smoker,Low,Yes,Stage I,9.61,None,No,No,Surgery,23.03,18,45177.84
+LC_746,44,Other,Former Smoker,High,No,Stage III,0.68,None,Yes,No,Immunotherapy,8.42,16,41440.04
+LC_747,77,Other,Current Smoker,High,Yes,Stage II,7.28,None,No,Yes,Immunotherapy,29.51,8,48765.09
+LC_748,54,Male,Current Smoker,Moderate,Yes,Stage I,5.51,Severe,No,No,Surgery,35.26,28,50053.84
+LC_749,64,Other,Never,Low,No,Stage I,1.24,Mild,Yes,No,Chemotherapy,7.85,1,56979.67
+LC_750,81,Other,Never,Low,Yes,Stage IV,7.75,Severe,No,No,Radiation,66.3,21,29940.18
+LC_751,55,Other,Current Smoker,High,No,Stage I,2.85,None,Yes,No,Surgery,84.62,27,9460.18
+LC_752,59,Female,Former Smoker,Low,Yes,Stage I,4.69,Mild,No,No,Surgery,32.14,5,18393.39
+LC_753,42,Other,Never,Low,Yes,Stage III,9.77,Severe,No,No,Surgery,65.63,1,78935.51
+LC_754,54,Female,Current Smoker,High,No,Stage IV,3.24,Mild,No,No,Surgery,84.6,10,54414.43
+LC_755,75,Other,Current Smoker,Low,Yes,Stage III,5.94,Severe,Yes,No,Chemotherapy,47.95,3,34605.66
+LC_756,45,Other,Current Smoker,Low,No,Stage II,8.62,Severe,No,No,Chemotherapy,68.09,15,46658.16
+LC_757,47,Male,Never,Moderate,Yes,Stage II,7.16,Severe,Yes,Yes,Chemotherapy,50.14,2,78684.45
+LC_758,56,Other,Former Smoker,High,Yes,Stage II,7.64,Mild,No,No,Radiation,8.1,23,58080.35
+LC_759,62,Other,Never,Low,Yes,Stage I,8.44,Severe,No,Yes,Immunotherapy,45.65,10,14314.96
+LC_760,78,Male,Former Smoker,Moderate,Yes,Stage II,1.95,Severe,No,Yes,Surgery,73.95,11,34444.05
+LC_761,69,Other,Never,Moderate,Yes,Stage II,7.06,Mild,Yes,Yes,Radiation,49.95,27,71313.3
+LC_762,78,Other,Never,High,No,Stage I,9.42,None,No,No,Surgery,42.13,28,28823.64
+LC_763,70,Male,Former Smoker,Moderate,No,Stage II,8.42,None,No,Yes,Surgery,46.02,6,34073.79
+LC_764,59,Female,Former Smoker,High,Yes,Stage III,8.78,None,No,Yes,Chemotherapy,29.39,18,58659.51
+LC_765,87,Female,Former Smoker,High,Yes,Stage II,2.32,None,Yes,No,Immunotherapy,84.84,10,15388.7
+LC_766,79,Male,Never,Low,No,Stage I,1.8,None,No,Yes,Radiation,19.87,5,87567.04
+LC_767,43,Other,Former Smoker,Low,No,Stage II,8.46,None,Yes,Yes,Chemotherapy,68.87,24,81359.65
+LC_768,37,Male,Current Smoker,Moderate,No,Stage III,5.24,None,Yes,No,Chemotherapy,49.74,21,87647.58
+LC_769,86,Female,Current Smoker,Moderate,Yes,Stage III,3.49,Mild,No,No,Surgery,69.02,12,78965.97
+LC_770,85,Other,Former Smoker,Moderate,No,Stage IV,9.56,Severe,No,No,Immunotherapy,64.85,27,41982.05
+LC_771,69,Other,Never,Moderate,No,Stage III,5.24,Severe,Yes,Yes,Immunotherapy,62.64,27,91149.13
+LC_772,46,Female,Never,Low,Yes,Stage III,1.08,None,Yes,Yes,Immunotherapy,68.75,19,16204.66
+LC_773,53,Female,Never,High,Yes,Stage IV,3.33,Severe,No,No,Immunotherapy,6.99,13,24544.82
+LC_774,85,Male,Former Smoker,Moderate,No,Stage III,6.71,Mild,Yes,Yes,Surgery,48.27,5,17149.29
+LC_775,87,Male,Current Smoker,High,No,Stage I,8.49,Severe,Yes,Yes,Chemotherapy,65.19,3,33005.55
+LC_776,57,Other,Current Smoker,High,Yes,Stage III,7.53,None,No,Yes,Immunotherapy,29.39,23,59480.26
+LC_777,48,Female,Former Smoker,Moderate,No,Stage III,9.47,None,No,No,Radiation,89.68,16,27279.03
+LC_778,30,Other,Current Smoker,Low,No,Stage IV,9.71,Mild,Yes,No,Chemotherapy,16.56,8,48663.48
+LC_779,36,Male,Current Smoker,High,Yes,Stage III,3.17,Severe,No,Yes,Immunotherapy,14.35,27,89267.89
+LC_780,81,Other,Current Smoker,High,No,Stage II,8.42,None,No,Yes,Radiation,63.38,5,56994.19
+LC_781,88,Female,Former Smoker,High,No,Stage IV,3.38,Severe,No,Yes,Immunotherapy,61.43,3,8503.48
+LC_782,63,Male,Former Smoker,Low,Yes,Stage IV,5.18,Severe,Yes,No,Immunotherapy,51.95,6,70940.29
+LC_783,44,Male,Current Smoker,Low,Yes,Stage II,3.12,None,Yes,No,Immunotherapy,70.62,14,12227.91
+LC_784,89,Male,Former Smoker,Moderate,Yes,Stage IV,2.01,Mild,No,No,Immunotherapy,89.31,16,83019.2
+LC_785,87,Female,Current Smoker,Moderate,Yes,Stage I,3.84,None,Yes,Yes,Chemotherapy,43.69,13,56145.58
+LC_786,38,Male,Former Smoker,High,Yes,Stage IV,4.7,None,No,Yes,Chemotherapy,29,10,90844.79
+LC_787,65,Male,Never,High,Yes,Stage III,4.09,Severe,No,No,Radiation,15.39,24,85964.36
+LC_788,75,Female,Current Smoker,Low,Yes,Stage IV,3.65,None,Yes,No,Chemotherapy,18.31,28,36555.24
+LC_789,43,Male,Former Smoker,High,No,Stage I,3.37,Mild,No,Yes,Immunotherapy,85.16,1,54583.86
+LC_790,66,Male,Never,High,No,Stage I,0.71,Mild,No,No,Radiation,18.88,13,63193.51
+LC_791,38,Female,Former Smoker,High,No,Stage I,9.44,Severe,Yes,Yes,Surgery,81.1,27,92174.3
+LC_792,52,Female,Never,High,No,Stage III,6.63,Mild,No,No,Immunotherapy,10.97,23,15815.51
+LC_793,78,Male,Current Smoker,High,No,Stage IV,0.98,None,No,No,Chemotherapy,22.59,25,83940.82
+LC_794,44,Other,Never,Low,Yes,Stage II,5.21,None,No,Yes,Immunotherapy,20.83,20,32280.04
+LC_795,39,Other,Never,High,Yes,Stage I,7.74,None,Yes,Yes,Radiation,77.18,7,32627.76
+LC_796,39,Female,Former Smoker,High,Yes,Stage IV,6.6,None,Yes,Yes,Radiation,47.94,2,99531.91
+LC_797,47,Other,Current Smoker,Moderate,Yes,Stage II,4.09,Mild,No,No,Chemotherapy,14.53,14,93153.79
+LC_798,83,Other,Current Smoker,Moderate,No,Stage IV,2.3,Severe,Yes,Yes,Chemotherapy,59.94,2,88597.33
+LC_799,74,Male,Current Smoker,High,No,Stage I,2.02,None,Yes,No,Immunotherapy,55.12,8,73975.09
+LC_800,34,Female,Former Smoker,Moderate,Yes,Stage III,7.56,None,No,Yes,Surgery,27.6,28,29011.69
+LC_801,63,Female,Current Smoker,Low,Yes,Stage II,3.3,Mild,No,No,Radiation,19.05,23,21009.23
+LC_802,47,Other,Current Smoker,Moderate,No,Stage II,1,None,Yes,No,Surgery,38.08,10,63852.61
+LC_803,73,Other,Never,Low,Yes,Stage IV,4.16,Severe,Yes,No,Surgery,16.26,15,79498.49
+LC_804,61,Female,Never,Low,No,Stage II,8.46,None,No,No,Immunotherapy,24.04,15,58819.35
+LC_805,30,Male,Current Smoker,Low,Yes,Stage II,1.03,Severe,Yes,Yes,Immunotherapy,89.48,4,86330.22
+LC_806,86,Male,Former Smoker,Low,Yes,Stage II,5.16,None,No,No,Surgery,64.42,14,93269.76
+LC_807,46,Female,Former Smoker,Low,Yes,Stage III,1.17,Mild,No,No,Immunotherapy,81.86,13,63705.29
+LC_808,31,Female,Current Smoker,Moderate,Yes,Stage III,0.58,None,No,Yes,Chemotherapy,81.5,12,42188.12
+LC_809,39,Other,Former Smoker,Moderate,No,Stage IV,9.34,None,No,No,Chemotherapy,78.4,4,75251.78
+LC_810,81,Other,Current Smoker,Moderate,No,Stage I,2.68,Mild,No,No,Surgery,47.18,2,60064.73
+LC_811,64,Other,Former Smoker,Low,No,Stage II,4.14,Severe,Yes,Yes,Immunotherapy,71.92,27,86425.76
+LC_812,58,Male,Current Smoker,High,No,Stage IV,4.39,Severe,No,Yes,Immunotherapy,89.5,9,98687.81
+LC_813,39,Other,Never,Moderate,Yes,Stage III,4.94,Severe,Yes,Yes,Immunotherapy,25.9,28,67208.2
+LC_814,76,Male,Never,High,Yes,Stage IV,8.34,None,Yes,Yes,Immunotherapy,15.59,2,92995.59
+LC_815,68,Male,Current Smoker,Moderate,Yes,Stage III,3.84,None,Yes,No,Immunotherapy,82.12,14,55573.22
+LC_816,39,Other,Never,High,No,Stage III,4.85,Severe,Yes,No,Radiation,28.58,17,15306.45
+LC_817,47,Female,Current Smoker,Low,No,Stage I,6.74,Mild,No,No,Immunotherapy,37.62,14,39646.6
+LC_818,80,Female,Never,Moderate,No,Stage II,5.18,None,No,Yes,Radiation,55.16,3,84242.56
+LC_819,87,Female,Current Smoker,Low,No,Stage III,6.12,None,Yes,Yes,Surgery,81.68,2,94589.83
+LC_820,46,Male,Current Smoker,High,Yes,Stage IV,6.65,Severe,Yes,Yes,Immunotherapy,86.61,16,82316.98
+LC_821,34,Other,Former Smoker,Moderate,No,Stage II,6.53,Mild,No,No,Chemotherapy,25.74,1,74034.08
+LC_822,48,Other,Former Smoker,Moderate,Yes,Stage II,2.27,None,No,No,Chemotherapy,28.83,10,48921.36
+LC_823,34,Female,Current Smoker,Moderate,No,Stage I,4.66,None,Yes,Yes,Surgery,89.4,1,70474.38
+LC_824,86,Female,Current Smoker,Moderate,No,Stage IV,2.63,Severe,No,No,Immunotherapy,81.76,28,10984.26
+LC_825,30,Female,Current Smoker,Moderate,No,Stage III,8.74,Severe,Yes,No,Immunotherapy,68.05,11,92638.21
+LC_826,76,Female,Never,Moderate,No,Stage I,5.96,Mild,No,No,Surgery,42.48,29,15516.35
+LC_827,82,Female,Current Smoker,Low,No,Stage IV,7.96,None,Yes,Yes,Chemotherapy,75.88,25,95837.77
+LC_828,48,Male,Former Smoker,High,No,Stage II,2.26,None,Yes,Yes,Chemotherapy,38.92,19,14008.46
+LC_829,86,Male,Current Smoker,Low,Yes,Stage IV,9.57,None,No,No,Immunotherapy,84.84,9,57710.26
+LC_830,74,Female,Former Smoker,Moderate,No,Stage IV,3.68,Severe,No,No,Radiation,44.36,23,97995.59
+LC_831,74,Other,Current Smoker,High,Yes,Stage II,9.29,Severe,No,Yes,Chemotherapy,5.87,2,83069.69
+LC_832,31,Male,Never,High,No,Stage II,6.13,Severe,No,No,Radiation,55.24,29,92863.93
+LC_833,41,Male,Current Smoker,Low,No,Stage II,1.78,None,No,No,Surgery,33.54,29,97390.73
+LC_834,87,Other,Never,Moderate,No,Stage II,4.26,None,Yes,Yes,Chemotherapy,75.84,8,18659.09
+LC_835,59,Other,Never,Moderate,No,Stage III,3.42,None,Yes,No,Surgery,30.94,7,18129.69
+LC_836,53,Female,Never,High,No,Stage I,6.14,Severe,No,No,Radiation,87.69,6,67493.36
+LC_837,61,Female,Former Smoker,Moderate,No,Stage IV,4.25,Severe,No,Yes,Chemotherapy,85.6,7,26691.11
+LC_838,33,Other,Never,Moderate,Yes,Stage IV,6.53,Severe,No,No,Immunotherapy,40.41,26,29151.11
+LC_839,62,Female,Never,Low,Yes,Stage II,3.24,Severe,No,Yes,Immunotherapy,81.89,21,66580.81
+LC_840,88,Other,Former Smoker,Low,No,Stage I,6.58,Severe,No,No,Surgery,55.58,3,71150.1
+LC_841,55,Other,Never,Moderate,No,Stage III,8.1,None,Yes,Yes,Surgery,20.21,29,55937.91
+LC_842,71,Female,Current Smoker,High,No,Stage II,6.32,Mild,No,Yes,Radiation,22.12,26,20064.2
+LC_843,62,Male,Former Smoker,Low,Yes,Stage IV,9.14,Severe,Yes,No,Radiation,81.83,15,34927.52
+LC_844,58,Other,Never,High,No,Stage II,9.26,Severe,No,Yes,Radiation,85.11,1,32437.28
+LC_845,75,Other,Current Smoker,Low,No,Stage IV,1.2,Severe,Yes,No,Chemotherapy,55.21,22,30687.29
+LC_846,79,Male,Never,High,Yes,Stage I,2.53,Mild,No,No,Radiation,85.75,5,65255.27
+LC_847,31,Other,Current Smoker,Moderate,No,Stage II,7.75,None,Yes,Yes,Radiation,57.8,6,46557.89
+LC_848,70,Male,Former Smoker,Moderate,No,Stage II,3.22,Mild,No,Yes,Surgery,20.05,11,95463.81
+LC_849,58,Other,Never,High,Yes,Stage II,8.07,None,No,No,Chemotherapy,42.2,22,33106.34
+LC_850,81,Male,Former Smoker,High,Yes,Stage II,2.11,Severe,No,Yes,Surgery,15.8,8,38904.29
+LC_851,35,Female,Never,Moderate,No,Stage IV,1.2,Severe,Yes,Yes,Immunotherapy,9.91,23,10960.79
+LC_852,74,Other,Former Smoker,Moderate,No,Stage II,6.12,Severe,Yes,Yes,Chemotherapy,34.82,17,97569.05
+LC_853,44,Male,Former Smoker,Moderate,No,Stage I,7.24,Severe,Yes,Yes,Surgery,16.24,15,45086.46
+LC_854,46,Male,Never,Low,Yes,Stage I,6.27,None,No,No,Immunotherapy,88.01,19,20003.07
+LC_855,46,Other,Current Smoker,Low,Yes,Stage II,4.42,None,Yes,Yes,Immunotherapy,8.97,21,43520.49
+LC_856,45,Other,Current Smoker,Low,No,Stage IV,7.42,Mild,No,Yes,Immunotherapy,43.95,13,40735.62
+LC_857,55,Other,Never,High,No,Stage I,8.01,None,Yes,Yes,Radiation,20.22,4,53354.46
+LC_858,78,Female,Never,Moderate,No,Stage IV,0.52,Severe,No,Yes,Radiation,30.41,23,75299.43
+LC_859,40,Male,Never,High,No,Stage III,9.21,Severe,Yes,No,Surgery,5.31,11,41810.23
+LC_860,79,Female,Current Smoker,Moderate,Yes,Stage IV,6.37,Mild,No,No,Radiation,34.64,1,75226.72
+LC_861,79,Male,Never,High,Yes,Stage I,8.52,Mild,Yes,No,Surgery,83.81,18,45749.57
+LC_862,39,Other,Never,High,Yes,Stage II,2.5,Severe,Yes,No,Chemotherapy,78.01,18,20305.28
+LC_863,81,Other,Never,High,Yes,Stage IV,5.8,None,No,No,Surgery,75.25,4,31765.66
+LC_864,57,Male,Former Smoker,Low,No,Stage IV,2.16,Mild,No,No,Radiation,67.37,14,83462.9
+LC_865,60,Male,Never,High,No,Stage IV,0.58,Severe,Yes,No,Radiation,50,23,14637.05
+LC_866,30,Other,Former Smoker,Low,No,Stage IV,4.01,None,Yes,No,Radiation,73.91,6,59107.93
+LC_867,37,Male,Never,Moderate,No,Stage II,1.92,Mild,No,No,Surgery,71.63,17,9833.59
+LC_868,87,Female,Current Smoker,High,No,Stage IV,8.38,Severe,Yes,No,Immunotherapy,57.18,11,91809.92
+LC_869,47,Male,Former Smoker,High,Yes,Stage I,2.49,None,No,Yes,Radiation,51.11,10,84209.35
+LC_870,83,Male,Current Smoker,Low,No,Stage III,4.35,Mild,No,No,Chemotherapy,13.35,13,55867.24
+LC_871,68,Male,Former Smoker,Moderate,Yes,Stage III,4.61,None,No,No,Chemotherapy,69.99,8,50086.82
+LC_872,89,Female,Former Smoker,Moderate,No,Stage I,4.76,Mild,Yes,No,Chemotherapy,88.48,18,19669.26
+LC_873,70,Female,Former Smoker,High,No,Stage IV,0.52,Mild,No,No,Radiation,53.49,4,45030.24
+LC_874,63,Other,Current Smoker,Moderate,Yes,Stage I,7.7,Mild,No,No,Immunotherapy,15.86,28,99324.23
+LC_875,53,Other,Never,Moderate,No,Stage I,0.9,None,No,No,Immunotherapy,67.73,24,75245.67
+LC_876,45,Male,Former Smoker,Moderate,Yes,Stage IV,0.77,Mild,No,Yes,Radiation,86.62,6,87202.33
+LC_877,57,Male,Current Smoker,Moderate,Yes,Stage IV,7.87,Severe,No,Yes,Chemotherapy,18.05,9,97667.09
+LC_878,68,Female,Former Smoker,Low,Yes,Stage I,9.52,Mild,No,Yes,Immunotherapy,36.22,19,78473.35
+LC_879,65,Male,Former Smoker,Low,Yes,Stage II,3.56,Severe,Yes,Yes,Immunotherapy,36.37,29,48827.75
+LC_880,56,Other,Former Smoker,High,No,Stage IV,5.22,Severe,No,No,Radiation,64.49,18,81885.8
+LC_881,32,Male,Former Smoker,Low,Yes,Stage I,5.37,Severe,Yes,No,Immunotherapy,67.59,5,80268.95
+LC_882,46,Male,Never,High,No,Stage IV,5.53,Mild,No,No,Radiation,76.55,23,41740.66
+LC_883,63,Female,Former Smoker,High,No,Stage II,8.31,Mild,No,Yes,Radiation,50.71,26,28384.49
+LC_884,36,Female,Former Smoker,Moderate,Yes,Stage III,5.66,None,Yes,Yes,Immunotherapy,29.15,5,99413.01
+LC_885,56,Other,Current Smoker,Moderate,Yes,Stage II,1.08,None,Yes,Yes,Immunotherapy,51.83,18,32891.51
+LC_886,79,Male,Former Smoker,High,No,Stage II,3.05,None,No,Yes,Radiation,40.73,5,98113.07
+LC_887,45,Other,Never,High,No,Stage II,9.05,Severe,No,Yes,Chemotherapy,36.15,2,24616.76
+LC_888,40,Other,Former Smoker,High,Yes,Stage IV,5.95,None,No,Yes,Immunotherapy,88.18,7,91889.6
+LC_889,77,Other,Current Smoker,Moderate,No,Stage I,4.1,Severe,No,No,Radiation,75.65,22,33084.63
+LC_890,87,Other,Former Smoker,High,No,Stage IV,2.44,Severe,No,Yes,Surgery,77.2,26,72550.16
+LC_891,37,Other,Former Smoker,High,Yes,Stage IV,1.58,Mild,No,Yes,Radiation,28.41,6,16573.63
+LC_892,76,Other,Current Smoker,High,No,Stage IV,0.78,Severe,No,Yes,Surgery,6.49,18,41374.67
+LC_893,47,Other,Current Smoker,Low,No,Stage II,1.76,Severe,No,No,Chemotherapy,47.31,7,91222.21
+LC_894,54,Male,Former Smoker,Low,No,Stage III,7.01,Mild,No,No,Surgery,52.3,3,41355.81
+LC_895,46,Male,Never,Moderate,Yes,Stage I,7.24,Severe,No,Yes,Surgery,86.44,4,13599.7
+LC_896,46,Male,Never,High,Yes,Stage I,2.54,Severe,No,No,Immunotherapy,57.04,26,65408.01
+LC_897,49,Male,Current Smoker,High,Yes,Stage I,1.18,None,No,Yes,Chemotherapy,24.96,11,97483.62
+LC_898,51,Female,Former Smoker,Moderate,Yes,Stage I,7.29,Severe,No,Yes,Surgery,46.78,22,16839.82
+LC_899,89,Male,Former Smoker,Moderate,Yes,Stage IV,0.81,None,Yes,No,Radiation,82.1,12,28830.79
+LC_900,43,Other,Current Smoker,High,Yes,Stage IV,4.12,Mild,No,Yes,Radiation,44.37,18,77231.76
+LC_901,61,Female,Never,Low,Yes,Stage I,7.4,Mild,Yes,No,Radiation,57.87,2,99706.26
+LC_902,78,Other,Never,High,No,Stage III,0.94,Mild,Yes,No,Chemotherapy,29.57,28,9422.84
+LC_903,61,Other,Current Smoker,High,Yes,Stage IV,6.83,Mild,Yes,No,Surgery,59.74,18,28782.24
+LC_904,53,Other,Current Smoker,High,Yes,Stage II,2.21,Mild,No,No,Immunotherapy,53.95,28,85601.75
+LC_905,32,Female,Former Smoker,Low,No,Stage IV,0.94,Mild,Yes,No,Immunotherapy,16.95,1,67836.33
+LC_906,44,Female,Never,Moderate,No,Stage IV,4.39,Mild,No,Yes,Immunotherapy,41.24,6,91638.22
+LC_907,61,Other,Former Smoker,Low,Yes,Stage IV,4.27,Severe,Yes,No,Chemotherapy,75,24,24117.79
+LC_908,36,Female,Current Smoker,Moderate,No,Stage IV,4.99,None,Yes,No,Immunotherapy,26.59,1,49720.35
+LC_909,56,Male,Never,Moderate,Yes,Stage II,7.66,Severe,No,No,Radiation,34.38,29,20491.53
+LC_910,50,Male,Current Smoker,Low,Yes,Stage IV,4.64,None,No,Yes,Chemotherapy,19.88,20,72591.25
+LC_911,48,Female,Never,High,Yes,Stage I,4.63,Mild,Yes,Yes,Surgery,62.26,12,32790.5
+LC_912,32,Female,Former Smoker,High,No,Stage II,7.92,Mild,No,Yes,Surgery,54.67,20,77079.2
+LC_913,64,Male,Current Smoker,Moderate,No,Stage IV,2.56,Mild,Yes,Yes,Immunotherapy,22.93,5,24009.31
+LC_914,77,Male,Never,Moderate,No,Stage I,1.23,Mild,No,No,Radiation,41.04,7,95067.05
+LC_915,53,Male,Former Smoker,Moderate,Yes,Stage II,5.17,Mild,No,Yes,Surgery,75.23,27,84402.99
+LC_916,38,Female,Former Smoker,High,No,Stage I,2.77,Mild,Yes,Yes,Surgery,86.53,5,74538.33
+LC_917,74,Male,Current Smoker,Moderate,Yes,Stage II,1.78,Severe,Yes,No,Chemotherapy,67.97,20,36126.09
+LC_918,76,Female,Current Smoker,Moderate,Yes,Stage IV,9.46,Severe,No,No,Chemotherapy,80.59,8,12098.35
+LC_919,52,Female,Never,Low,No,Stage II,8.05,Severe,No,Yes,Radiation,28.12,4,26206.23
+LC_920,48,Other,Never,Low,Yes,Stage III,2.55,None,Yes,Yes,Chemotherapy,6.8,21,95892.75
+LC_921,83,Male,Current Smoker,Moderate,No,Stage III,4.35,Mild,Yes,No,Chemotherapy,30.05,14,10173.13
+LC_922,74,Female,Current Smoker,High,Yes,Stage III,9.11,None,Yes,Yes,Surgery,66.96,6,8422.43
+LC_923,51,Other,Never,Low,Yes,Stage I,1.55,Severe,No,No,Immunotherapy,17.8,2,44422.53
+LC_924,82,Other,Current Smoker,Moderate,Yes,Stage I,2.74,None,No,Yes,Chemotherapy,75.55,15,91396.78
+LC_925,45,Male,Current Smoker,Low,Yes,Stage III,2.79,Mild,No,No,Surgery,8.52,21,48094.55
+LC_926,87,Other,Former Smoker,Moderate,No,Stage III,7.33,Severe,No,Yes,Immunotherapy,66.03,19,78501.16
+LC_927,61,Male,Never,High,Yes,Stage III,0.75,None,No,No,Immunotherapy,65.49,1,31135.01
+LC_928,70,Female,Former Smoker,Moderate,No,Stage III,2.67,Severe,Yes,Yes,Chemotherapy,74.01,5,51596.15
+LC_929,58,Male,Never,High,Yes,Stage IV,0.56,Severe,No,Yes,Chemotherapy,18.88,13,39688.36
+LC_930,56,Male,Current Smoker,Low,No,Stage II,5.94,Severe,Yes,Yes,Immunotherapy,23.75,8,95078.12
+LC_931,75,Male,Never,High,No,Stage I,4.46,Mild,No,Yes,Immunotherapy,70.9,4,79260.36
+LC_932,77,Female,Former Smoker,High,No,Stage I,2.25,Severe,No,No,Immunotherapy,87.31,27,69933.06
+LC_933,34,Other,Never,Low,Yes,Stage III,4.28,Severe,No,Yes,Immunotherapy,85.93,22,8910.88
+LC_934,51,Male,Never,Low,Yes,Stage II,6.76,None,Yes,No,Chemotherapy,65.64,8,44269.37
+LC_935,88,Female,Current Smoker,High,No,Stage II,4.4,None,Yes,No,Immunotherapy,12.41,26,55587.23
+LC_936,80,Female,Never,High,No,Stage IV,9.53,Mild,No,No,Radiation,48.47,23,85103.13
+LC_937,81,Male,Never,Low,Yes,Stage IV,2,Mild,Yes,Yes,Chemotherapy,87.95,9,90352.57
+LC_938,42,Other,Current Smoker,Low,No,Stage III,6.85,None,Yes,No,Radiation,39.68,12,9510.76
+LC_939,50,Other,Former Smoker,High,No,Stage II,5.62,None,No,Yes,Surgery,27.77,14,36587.05
+LC_940,81,Female,Former Smoker,Low,No,Stage II,1.61,Mild,No,No,Chemotherapy,57.08,24,11882.37
+LC_941,41,Female,Former Smoker,Moderate,Yes,Stage III,0.87,Severe,No,Yes,Surgery,58.23,7,79536.05
+LC_942,49,Female,Current Smoker,Low,No,Stage IV,9.78,Mild,No,No,Immunotherapy,86.88,3,96688.68
+LC_943,84,Male,Current Smoker,Low,No,Stage III,4.77,None,Yes,Yes,Immunotherapy,16.8,22,96751.97
+LC_944,82,Male,Former Smoker,High,Yes,Stage I,5.79,Mild,No,No,Surgery,27.54,18,40371.06
+LC_945,86,Female,Never,High,Yes,Stage II,2.74,None,No,No,Radiation,50.58,22,76860.99
+LC_946,50,Female,Current Smoker,Moderate,No,Stage II,4.6,None,No,Yes,Immunotherapy,35.39,20,80619.41
+LC_947,87,Female,Current Smoker,Low,No,Stage I,4.04,Severe,Yes,No,Chemotherapy,43.82,13,12220.45
+LC_948,32,Female,Never,Low,No,Stage I,5.84,None,No,No,Chemotherapy,66.72,3,30776.49
+LC_949,73,Male,Current Smoker,Moderate,Yes,Stage II,8.1,None,Yes,Yes,Surgery,29.13,27,69392.96
+LC_950,61,Female,Current Smoker,High,Yes,Stage I,1.09,None,Yes,Yes,Immunotherapy,38.92,1,72516.28
+LC_951,34,Female,Current Smoker,High,No,Stage II,8.73,Mild,No,No,Surgery,11.8,15,89145.31
+LC_952,79,Female,Former Smoker,High,No,Stage III,7.35,Mild,No,Yes,Radiation,39.55,14,49968.65
+LC_953,39,Female,Former Smoker,Moderate,Yes,Stage IV,8.29,None,Yes,No,Immunotherapy,46.22,3,13416.84
+LC_954,87,Female,Former Smoker,Moderate,Yes,Stage III,1.6,Mild,No,Yes,Chemotherapy,58.81,24,70725.87
+LC_955,40,Female,Former Smoker,Low,Yes,Stage I,7.68,Severe,No,Yes,Surgery,84.92,26,66697.51
+LC_956,61,Female,Current Smoker,Low,No,Stage I,5.41,Severe,Yes,Yes,Radiation,35.12,25,21572.11
+LC_957,81,Female,Current Smoker,Moderate,Yes,Stage I,5.32,Severe,Yes,No,Radiation,20.09,15,52274.65
+LC_958,75,Other,Never,Low,No,Stage IV,0.75,Severe,No,No,Chemotherapy,87.8,14,77255.57
+LC_959,56,Male,Current Smoker,Moderate,Yes,Stage IV,2.14,Mild,No,Yes,Radiation,75.16,24,72227.41
+LC_960,51,Other,Current Smoker,Low,Yes,Stage II,2.72,None,Yes,No,Immunotherapy,75.89,22,18798.23
+LC_961,60,Male,Never,Low,Yes,Stage IV,5.9,Mild,Yes,No,Surgery,19.11,13,33475.91
+LC_962,68,Other,Former Smoker,High,No,Stage III,6.85,Mild,Yes,No,Surgery,66.57,24,20558.6
+LC_963,44,Female,Current Smoker,Moderate,Yes,Stage IV,7.73,None,Yes,Yes,Chemotherapy,13.75,13,99423.09
+LC_964,52,Female,Never,Moderate,No,Stage II,6.74,Mild,Yes,No,Radiation,85.76,4,29987.97
+LC_965,87,Female,Former Smoker,Low,Yes,Stage I,3.95,Mild,Yes,No,Immunotherapy,88.99,27,12304.63
+LC_966,75,Other,Never,High,Yes,Stage III,9.23,None,Yes,Yes,Radiation,55.14,22,87766.26
+LC_967,58,Other,Current Smoker,High,Yes,Stage IV,5.37,Severe,Yes,Yes,Immunotherapy,83.71,18,45984.63
+LC_968,62,Male,Current Smoker,High,No,Stage III,2.61,None,No,No,Surgery,44.46,5,67255.97
+LC_969,85,Female,Former Smoker,Moderate,No,Stage II,8.33,Severe,No,Yes,Immunotherapy,26,15,45694.63
+LC_970,57,Female,Former Smoker,Low,Yes,Stage III,5.88,Severe,No,No,Immunotherapy,44.29,7,46188.87
+LC_971,64,Other,Current Smoker,Moderate,No,Stage I,2.66,Mild,No,Yes,Chemotherapy,67.9,22,51845.69
+LC_972,72,Female,Never,Moderate,No,Stage IV,7.83,Severe,No,Yes,Chemotherapy,54.06,17,6597.17
+LC_973,65,Other,Former Smoker,Moderate,No,Stage III,7.69,None,Yes,No,Chemotherapy,27.57,28,36209.35
+LC_974,87,Female,Never,Low,No,Stage IV,9.7,None,No,No,Chemotherapy,34.73,13,45766.02
+LC_975,63,Other,Current Smoker,High,Yes,Stage IV,4.07,Mild,Yes,No,Chemotherapy,69.45,13,26982.23
+LC_976,47,Male,Former Smoker,Low,No,Stage II,7.41,None,No,No,Radiation,84.54,23,18381.16
+LC_977,72,Female,Former Smoker,Moderate,Yes,Stage I,8.44,Mild,No,No,Radiation,22.84,16,93159.16
+LC_978,83,Female,Never,Moderate,No,Stage III,8.63,None,Yes,No,Radiation,27.55,21,32286.64
+LC_979,81,Other,Current Smoker,Low,Yes,Stage IV,1.37,None,Yes,Yes,Surgery,9.42,13,65737.63
+LC_980,47,Female,Former Smoker,High,No,Stage I,4.58,Severe,Yes,Yes,Surgery,38.71,24,94374
+LC_981,54,Other,Former Smoker,Moderate,Yes,Stage I,4.58,Mild,Yes,Yes,Immunotherapy,31.34,23,77216.65
+LC_982,52,Male,Never,High,No,Stage II,1.67,Mild,Yes,Yes,Surgery,35.88,29,71779.49
+LC_983,38,Male,Never,Low,No,Stage III,3.29,None,Yes,No,Surgery,56.12,14,9102.81
+LC_984,33,Female,Former Smoker,Moderate,Yes,Stage III,5.58,None,Yes,Yes,Chemotherapy,45.99,13,66273.97
+LC_985,87,Male,Never,Low,Yes,Stage IV,9.78,Mild,Yes,Yes,Radiation,33.77,17,70299.9
+LC_986,81,Female,Never,Low,Yes,Stage IV,6.78,Severe,Yes,No,Surgery,32.43,21,49740.38
+LC_987,45,Female,Never,High,No,Stage IV,2.73,Mild,Yes,Yes,Radiation,30.4,19,58829.02
+LC_988,82,Other,Never,High,Yes,Stage II,5.72,Mild,No,No,Immunotherapy,63.04,2,46509.3
+LC_989,89,Other,Former Smoker,Moderate,Yes,Stage II,8.29,Severe,Yes,Yes,Radiation,34.86,25,16266.66
+LC_990,85,Other,Former Smoker,Low,No,Stage III,3.02,None,No,Yes,Surgery,33.6,16,92545.7
+LC_991,68,Male,Current Smoker,High,No,Stage IV,3.47,Severe,No,No,Radiation,61.43,17,97531.6
+LC_992,48,Male,Former Smoker,High,No,Stage II,7.74,None,Yes,Yes,Chemotherapy,13.16,26,10154.63
+LC_993,40,Male,Current Smoker,Moderate,No,Stage IV,9.63,Mild,Yes,Yes,Surgery,13.6,21,96246.37
+LC_994,30,Female,Former Smoker,Low,No,Stage I,6.03,Mild,Yes,No,Radiation,68.92,9,95242.61
+LC_995,34,Other,Never,Moderate,No,Stage I,1.26,Mild,No,No,Radiation,59.42,25,64817.36
+LC_996,89,Female,Never,Moderate,No,Stage I,4.59,Mild,Yes,No,Radiation,24.32,18,90632.12
+LC_997,70,Female,Never,High,No,Stage I,4.25,None,Yes,No,Chemotherapy,48.62,26,43591.96
+LC_998,59,Other,Current Smoker,Low,Yes,Stage I,6.65,Severe,Yes,Yes,Surgery,52.12,24,75286.73
+LC_999,66,Other,Former Smoker,Low,No,Stage II,2.19,None,No,No,Surgery,14.66,6,95930.31
+LC_1000,67,Female,Never,High,Yes,Stage II,5.54,Mild,Yes,Yes,Chemotherapy,50.11,12,57505.98
